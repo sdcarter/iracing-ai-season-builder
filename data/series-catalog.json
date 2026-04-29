@@ -1,23 +1,12 @@
 {
   "catalogVersion": "1",
-  "trackMapPaths": [
-    "./assets/track-data/track-ids.lookup.json",
-    "../data/track-data/track-ids.lookup.json"
-  ],
   "seasons": {
     "2026s2": {
       "label": "2026 Season 2",
-      "schedulePdfPaths": [
-        "./assets/schedule/2026s2.pdf",
-        "../data/schedule/2026s2.pdf"
-      ],
       "series": {
         "production-car-challenge": {
           "label": "Production Car Challenge",
-          "templatePaths": [
-            "./assets/templates/production-car-challenge-template.json",
-            "../data/templates/production-car-challenge-template.json"
-          ],
+          "templateFilename": "production-car-challenge-template.json",
           "pdfLabelCandidates": [
             "Production Car Challenge by Sim-Lab - 2026 Season 2",
             "Production Car Challenge by Sim-Lab",
@@ -32,10 +21,7 @@
         },
         "gt4-falken-tyre-challenge": {
           "label": "GT4 Falken Tyre Challenge",
-          "templatePaths": [
-            "./assets/templates/gt4-falken-tyre-challenge-template.json",
-            "../data/templates/gt4-falken-tyre-challenge-template.json"
-          ],
+          "templateFilename": "gt4-falken-tyre-challenge-template.json",
           "pdfLabelCandidates": [
             "GT4 Falken Tyre Challenge - 2026 Season 2",
             "GT4 Falken Tyre Challenge",
@@ -53,10 +39,7 @@
         },
         "sports-car-challenge-by-falken-tyre": {
           "label": "Sports Car Challenge by Falken Tyre",
-          "templatePaths": [
-            "./assets/templates/sports-car-challenge-by-falken-tyre-template.json",
-            "../data/templates/sports-car-challenge-by-falken-tyre-template.json"
-          ],
+          "templateFilename": "sports-car-challenge-by-falken-tyre-template.json",
           "pdfLabelCandidates": [
             "Sports Car Challenge by Falken Tyre - 2026 Season 2",
             "Sports Car Challenge by Falken Tyre",

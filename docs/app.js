@@ -10,6 +10,26 @@ const CATALOG_PATHS = [
   "../data/series-catalog.json"
 ];
 
+const TRACK_MAP_PATHS = [
+  "./assets/track-data/track-ids.lookup.json",
+  "../data/track-data/track-ids.lookup.json"
+];
+
+function getSchedulePdfPaths(seasonCode) {
+  const filename = `${seasonCode}.pdf`;
+  return [
+    `./assets/schedule/${filename}`,
+    `../data/schedule/${filename}`
+  ];
+}
+
+function getTemplatePaths(templateFilename) {
+  return [
+    `./assets/templates/${templateFilename}`,
+    `../data/templates/${templateFilename}`
+  ];
+}
+
 let products = {};
 
 function getSelectedSeriesConfig() {
@@ -427,9 +447,9 @@ async function loadCatalog() {
           for (const [seriesCode, seriesData] of Object.entries(seasonData.series || {})) {
             products[seasonCode][seriesCode] = {
               label: seriesData.label,
-              templatePaths: seriesData.templatePaths,
-              schedulePdfPaths: seasonData.schedulePdfPaths,
-              trackMapPaths: catalog.trackMapPaths,
+              templatePaths: getTemplatePaths(seriesData.templateFilename),
+              schedulePdfPaths: getSchedulePdfPaths(seasonCode),
+              trackMapPaths: TRACK_MAP_PATHS,
               pdfLabelCandidates: seriesData.pdfLabelCandidates || [],
               allowedCars: seriesData.allowedCars || []
             };
