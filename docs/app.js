@@ -6,8 +6,8 @@ const fileNameInput = document.getElementById("fileNameInput");
 const statusEl = document.getElementById("status");
 
 const CATALOG_PATHS = [
-  "./assets/series-catalog.json",
-  "../data/series-catalog.json"
+  "./assets/series-data/series-catalog.json",
+  "../data/series-data/series-catalog.json"
 ];
 
 const TRACK_MAP_PATHS = [

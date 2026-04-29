@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TRACKS_PATH = ROOT / "data/track-data/track-ids.lookup.json"
 CARS_PATH = ROOT / "data/car-data/car-ids.lookup.json"
-CATALOG_PATH = ROOT / "data/series-catalog.json"
+CATALOG_PATH = ROOT / "data/series-data/series-catalog.json"
 
 REQUIRED_TRACK_IDS = [572, 573, 574, 575, 576, 577, 578, 580, 584, 585]
 
