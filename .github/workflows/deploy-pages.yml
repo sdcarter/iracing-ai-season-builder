@@ -27,7 +27,7 @@ jobs:
           mkdir -p docs/assets/templates docs/assets/schedule docs/assets/track-data docs/assets/car-data docs/assets/series-data
           cp data/templates/*.json docs/assets/templates/
           cp data/series-data/series-catalog.json docs/assets/series-data/series-catalog.json
-          cp "data/schedule/2026s2.pdf" "docs/assets/schedule/2026s2.pdf"
+          cp data/schedule/*.pdf docs/assets/schedule/
           cp "data/track-data/track-ids.lookup.json" "docs/assets/track-data/track-ids.lookup.json"
           cp "data/car-data/car-ids.lookup.json" "docs/assets/car-data/car-ids.lookup.json"
 
