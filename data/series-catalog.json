@@ -1,0 +1,81 @@
+{
+  "catalogVersion": "1",
+  "trackMapPaths": [
+    "./assets/track-data/track-ids.lookup.json",
+    "../data/track-data/track-ids.lookup.json"
+  ],
+  "seasons": {
+    "2026s2": {
+      "label": "2026 Season 2",
+      "schedulePdfPaths": [
+        "./assets/schedule/2026s2.pdf",
+        "../data/schedule/2026s2.pdf"
+      ],
+      "series": {
+        "production-car-challenge": {
+          "label": "Production Car Challenge",
+          "templatePaths": [
+            "./assets/templates/production-car-challenge-template.json",
+            "../data/templates/production-car-challenge-template.json"
+          ],
+          "pdfLabelCandidates": [
+            "Production Car Challenge by Sim-Lab - 2026 Season 2",
+            "Production Car Challenge by Sim-Lab",
+            "Production Car Challenge"
+          ],
+          "allowedCars": [
+            { "carId": 67, "carClassId": 74, "label": "Global Mazda MX-5 Cup" },
+            { "carId": 160, "carClassId": 4012, "label": "Toyota GR86" },
+            { "carId": 162, "carClassId": 4015, "label": "Renault Clio" },
+            { "carId": 195, "carClassId": 4073, "label": "BMW M2 CS Racing" }
+          ]
+        },
+        "gt4-falken-tyre-challenge": {
+          "label": "GT4 Falken Tyre Challenge",
+          "templatePaths": [
+            "./assets/templates/gt4-falken-tyre-challenge-template.json",
+            "../data/templates/gt4-falken-tyre-challenge-template.json"
+          ],
+          "pdfLabelCandidates": [
+            "GT4 Falken Tyre Challenge - 2026 Season 2",
+            "GT4 Falken Tyre Challenge",
+            "GT4 Falken Tire Challenge - 2026 Season 2",
+            "GT4 Falken Tire Challenge"
+          ],
+          "allowedCars": [
+            { "carId": 157, "carClassId": 2268, "label": "Mercedes-AMG GT4" },
+            { "carId": 189, "carClassId": 2268, "label": "BMW M4 G82 GT4" },
+            { "carId": 150, "carClassId": 2268, "label": "Aston Martin Vantage GT4" },
+            { "carId": 119, "carClassId": 2268, "label": "Porsche 718 Cayman GT4 Clubsport MR" },
+            { "carId": 135, "carClassId": 2268, "label": "McLaren 570S GT4" },
+            { "carId": 204, "carClassId": 2268, "label": "Ford Mustang GT4" }
+          ]
+        },
+        "sports-car-challenge-by-falken-tyre": {
+          "label": "Sports Car Challenge by Falken Tyre",
+          "templatePaths": [
+            "./assets/templates/sports-car-challenge-by-falken-tyre-template.json",
+            "../data/templates/sports-car-challenge-by-falken-tyre-template.json"
+          ],
+          "pdfLabelCandidates": [
+            "Sports Car Challenge by Falken Tyre - 2026 Season 2",
+            "Sports Car Challenge by Falken Tyre",
+            "Sports Car Challenge by Falken Tire - 2026 Season 2",
+            "Sports Car Challenge by Falken Tire",
+            "Falken Tyre Sports Car Challenge",
+            "Falken Tire Sports Car Challenge"
+          ],
+          "allowedCars": [
+            { "carId": 165, "carClassId": 4018, "label": "Ligier JS P320" },
+            { "carId": 157, "carClassId": 2268, "label": "Mercedes-AMG GT4" },
+            { "carId": 189, "carClassId": 2268, "label": "BMW M4 G82 GT4" },
+            { "carId": 150, "carClassId": 2268, "label": "Aston Martin Vantage GT4" },
+            { "carId": 119, "carClassId": 2268, "label": "Porsche 718 Cayman GT4 Clubsport MR" },
+            { "carId": 135, "carClassId": 2268, "label": "McLaren 570S GT4" },
+            { "carId": 204, "carClassId": 2268, "label": "Ford Mustang GT4" }
+          ]
+        }
+      }
+    }
+  }
+}

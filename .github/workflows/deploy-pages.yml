@@ -20,26 +20,27 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Stage downloadable assets
         run: |
           mkdir -p docs/assets/templates docs/assets/schedule docs/assets/track-data docs/assets/car-data
-          cp "data/templates/production-car-challenge-template.json" "docs/assets/templates/production-car-challenge-template.json"
+          cp data/templates/*.json docs/assets/templates/
+          cp data/series-catalog.json docs/assets/series-catalog.json
           cp "data/schedule/2026s2.pdf" "docs/assets/schedule/2026s2.pdf"
           cp "data/track-data/track-ids.lookup.json" "docs/assets/track-data/track-ids.lookup.json"
           cp "data/car-data/car-ids.lookup.json" "docs/assets/car-data/car-ids.lookup.json"
 
       - name: Setup Pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v5
         with:
           enablement: true
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4

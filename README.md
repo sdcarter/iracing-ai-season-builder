@@ -1,7 +1,4 @@
-# AiSeasonCreator
-
-I is now a GitHub Pages web app named iRacing AI: Season Builder.
-
+# iRacing AI: Season Builder
 It generates an iRacing season JSON in the browser from curated static inputs. Users pick season, series, and car, then download a ready-to-import file.
 
 ## What This App Does

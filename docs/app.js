@@ -5,31 +5,12 @@ const carSelect = document.getElementById("carSelect");
 const fileNameInput = document.getElementById("fileNameInput");
 const statusEl = document.getElementById("status");
 
-const products = {
-  "2026s2": {
-    "production-car-challenge": {
-      label: "Production Car Challenge",
-      templatePaths: [
-        "./assets/templates/production-car-challenge-template.json",
-        "../data/templates/production-car-challenge-template.json"
-      ],
-      schedulePdfPaths: [
-        "./assets/schedule/2026s2.pdf",
-        "../data/schedule/2026s2.pdf"
-      ],
-      trackMapPaths: [
-        "./assets/track-data/track-ids.lookup.json",
-        "../data/track-data/track-ids.lookup.json"
-      ],
-      allowedCars: [
-        { carId: 67, carClassId: 74, label: "Global Mazda MX-5 Cup" },
-        { carId: 160, carClassId: 4012, label: "Toyota GR86" },
-        { carId: 162, carClassId: 4015, label: "Renault Clio" },
-        { carId: 195, carClassId: 4073, label: "BMW M2 CS Racing" }
-      ]
-    }
-  }
-};
+const CATALOG_PATHS = [
+  "./assets/series-catalog.json",
+  "../data/series-catalog.json"
+];
+
+let products = {};
 
 function getSelectedSeriesConfig() {
   const seasonBucket = products[seasonSelect.value];
@@ -68,7 +49,13 @@ function formatSeasonCodeForPdfSearch(seasonCode) {
   return `${match[1]} Season ${Number.parseInt(match[2], 10)}`;
 }
 
-function getSeriesLabelCandidates(seriesLabel, seasonCode) {
+function getSeriesLabelCandidates(seriesConfig, seasonCode) {
+  const seriesLabel = seriesConfig?.label || "";
+  const explicitCandidates = ensureArray(seriesConfig?.pdfLabelCandidates || []).filter(Boolean);
+  if (explicitCandidates.length > 0) {
+    return explicitCandidates;
+  }
+
   const seasonText = formatSeasonCodeForPdfSearch(seasonCode);
   return [
     `${seriesLabel} by Sim-Lab - ${seasonText}`,
@@ -390,7 +377,7 @@ async function downloadJson(seasonCode, seriesCode) {
     ]);
     const seriesText = await extractSeriesTextFromAnyPdf(
       item.schedulePdfPaths,
-      getSeriesLabelCandidates(item.label, seasonCode)
+      getSeriesLabelCandidates(item, seasonCode)
     );
     const weekRows = parseWeekRowsFromSeriesText(seriesText);
 
@@ -424,6 +411,57 @@ async function downloadJson(seasonCode, seriesCode) {
   }
 }
 
+async function loadCatalog() {
+  let lastError = "No catalog paths tried.";
+
+  for (const path of CATALOG_PATHS) {
+    try {
+      const response = await fetch(path, { cache: "no-store" });
+      if (response.ok) {
+        const catalog = await response.json();
+        products = {};
+
+        for (const [seasonCode, seasonData] of Object.entries(catalog.seasons || {})) {
+          products[seasonCode] = {};
+
+          for (const [seriesCode, seriesData] of Object.entries(seasonData.series || {})) {
+            products[seasonCode][seriesCode] = {
+              label: seriesData.label,
+              templatePaths: seriesData.templatePaths,
+              schedulePdfPaths: seasonData.schedulePdfPaths,
+              trackMapPaths: catalog.trackMapPaths,
+              pdfLabelCandidates: seriesData.pdfLabelCandidates || [],
+              allowedCars: seriesData.allowedCars || []
+            };
+          }
+        }
+
+        return;
+      }
+
+      lastError = `${path} -> HTTP ${response.status}`;
+    } catch (err) {
+      lastError = `${path} -> ${err.message}`;
+    }
+  }
+
+  throw new Error(`Could not load series catalog. Last failure: ${lastError}`);
+}
+
+async function init() {
+  try {
+    await loadCatalog();
+  } catch (err) {
+    setStatus(`Failed to load series catalog: ${err.message}`, true);
+    return;
+  }
+
+  refreshSeasonChoices();
+  refreshSeriesChoices();
+  refreshCarChoices();
+  refreshOutputFileName();
+}
+
 selectorForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   await downloadJson(seasonSelect.value, seriesSelect.value);
@@ -439,7 +477,4 @@ seriesSelect.addEventListener("change", () => {
   refreshOutputFileName();
 });
 
-refreshSeasonChoices();
-refreshSeriesChoices();
-refreshCarChoices();
-refreshOutputFileName();
+init();

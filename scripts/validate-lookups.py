@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -9,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TRACKS_PATH = ROOT / "data/track-data/track-ids.lookup.json"
 CARS_PATH = ROOT / "data/car-data/car-ids.lookup.json"
-APP_PATH = ROOT / "docs/app.js"
+CATALOG_PATH = ROOT / "data/series-catalog.json"
 
 REQUIRED_TRACK_IDS = [572, 573, 574, 575, 576, 577, 578, 580, 584, 585]
 
@@ -19,20 +18,17 @@ def load_json(path: Path):
         return json.load(f)
 
 
-def parse_allowed_cars_from_app(path: Path):
-    src = path.read_text(encoding="utf-8")
-    pattern = re.compile(
-        r"\{\s*carId:\s*(\d+),\s*carClassId:\s*(\d+),\s*label:\s*\"([^\"]+)\"\s*\}"
-    )
+def parse_allowed_cars_from_catalog(path: Path):
+    catalog = load_json(path)
     allowed = []
-    for m in pattern.finditer(src):
-        allowed.append(
-            {
-                "carId": int(m.group(1)),
-                "carClassId": int(m.group(2)),
-                "label": m.group(3),
-            }
-        )
+    for season_data in catalog.get("seasons", {}).values():
+        for series_data in season_data.get("series", {}).values():
+            for car in series_data.get("allowedCars", []):
+                allowed.append({
+                    "carId": car["carId"],
+                    "carClassId": car["carClassId"],
+                    "label": car["label"],
+                })
     return allowed
 
 
@@ -45,7 +41,7 @@ def main():
     tracks = tracks_json.get("tracks", [])
     cars = cars_json.get("cars", [])
     car_classes = cars_json.get("carClasses", [])
-    allowed_cars = parse_allowed_cars_from_app(APP_PATH)
+    allowed_cars = parse_allowed_cars_from_catalog(CATALOG_PATH)
 
     track_ids = [t.get("trackId") for t in tracks]
     if len(track_ids) != len(set(track_ids)):
@@ -68,7 +64,7 @@ def main():
             errors.append(f"Missing required trackId {required_id} in track lookup.")
 
     if not allowed_cars:
-        errors.append("No allowedCars entries were parsed from docs/app.js.")
+        errors.append("No allowedCars entries were parsed from data/series-catalog.json.")
 
     for item in allowed_cars:
         car_id = item["carId"]
@@ -84,7 +80,7 @@ def main():
     print(f"Tracks: {len(tracks)}")
     print(f"Cars: {len(cars)}")
     print(f"Car classes: {len(car_classes)}")
-    print(f"Allowed cars parsed from app config: {len(allowed_cars)}")
+    print(f"Allowed cars parsed from catalog: {len(allowed_cars)}")
 
     if errors:
         print("\nLookup validation failed:")
