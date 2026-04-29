@@ -1,0 +1,3471 @@
+{
+  "description": "iRacing car and car class reference. Cars from iRacing GTM car_id map; classes preserved from existing catalog.",
+  "carClasses": [
+    {
+      "carClassId": 2,
+      "name": "SK Modified",
+      "shortName": "SK Modified",
+      "relativeSpeed": 51,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3,
+      "name": "Solstice",
+      "shortName": "Solstice",
+      "relativeSpeed": 25,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4,
+      "name": "Pro Mazda",
+      "shortName": "Pro Mazda",
+      "relativeSpeed": 55,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 5,
+      "name": "Legends",
+      "shortName": "Legends",
+      "relativeSpeed": 38,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 12,
+      "name": "[Retired] - Rookie Legends",
+      "shortName": "[R] Rookie Lgnds",
+      "relativeSpeed": 20,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 13,
+      "name": "Rookie Solstice",
+      "shortName": "Rookie Solstice",
+      "relativeSpeed": 15,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 14,
+      "name": "[Retired] Monte Carlo SS",
+      "shortName": "[R] Late Model",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 15,
+      "name": "Radical SR8",
+      "shortName": "SR8",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 16,
+      "name": "Silver Crown",
+      "shortName": "Silver Crown",
+      "relativeSpeed": 180,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 17,
+      "name": "Silverado",
+      "shortName": "Truck",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 18,
+      "name": "Riley Daytona Prototype",
+      "shortName": "Riley DP",
+      "relativeSpeed": 90,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 19,
+      "name": "Impala SS Class A",
+      "shortName": "Cup",
+      "relativeSpeed": 80,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 0,
+      "name": "Hosted All Cars Class",
+      "shortName": "Hosted All Cars",
+      "relativeSpeed": 100,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 21,
+      "name": "[Legacy] ARCA Series",
+      "shortName": "[L] ARCA Series",
+      "relativeSpeed": 53,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 23,
+      "name": "Corvette C6R GT1",
+      "shortName": "C6R GT1",
+      "relativeSpeed": 85,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 83,
+      "name": "Audi 90 GTO",
+      "shortName": "Audi 90 GTO",
+      "relativeSpeed": 51,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 86,
+      "name": "Dirt Street Stock",
+      "shortName": "Dirt StreetStock",
+      "relativeSpeed": 30,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 24,
+      "name": "VW Jetta TDI Cup",
+      "shortName": "Jetta TDI",
+      "relativeSpeed": 33,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 28,
+      "name": "Ford Mustang FR500S",
+      "shortName": "FR500S",
+      "relativeSpeed": 38,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 30,
+      "name": "Williams FW31",
+      "shortName": "Williams FW31",
+      "relativeSpeed": 200,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 45,
+      "name": "Cadillac CTS-VR",
+      "shortName": "Cadillac CTS-VR",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 48,
+      "name": "Kia Optima",
+      "shortName": "Kia Optima",
+      "relativeSpeed": 46,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 62,
+      "name": "Toyota Camry-Gen6",
+      "shortName": "Camry-Gen6",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 63,
+      "name": "Dallara DW12",
+      "shortName": "DW12",
+      "relativeSpeed": 150,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 64,
+      "name": "Chevrolet Camaro Class B",
+      "shortName": "Camaro Class B",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 88,
+      "name": "Ford Fiesta RS WRC",
+      "shortName": "Ford RS WRC",
+      "relativeSpeed": 100,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 95,
+      "name": "[Legacy] Porsche 911 GT3 Cup",
+      "shortName": "[L] Porsche 911",
+      "relativeSpeed": 51,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 98,
+      "name": "Ford GT - 2017",
+      "shortName": "Ford GT - 2017",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 102,
+      "name": "[Legacy] Ferrari 488 GT3",
+      "shortName": "[L]Ferrari488GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 103,
+      "name": "Dirt UMP Modified",
+      "shortName": "Dirt UMP Mod",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 25,
+      "name": "FG01 V8 - circa 2012",
+      "shortName": "V8SC",
+      "relativeSpeed": 75,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 26,
+      "name": "[Legacy] Dallara IR-05",
+      "shortName": "[L] DallaraIR05",
+      "relativeSpeed": 150,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 35,
+      "name": "Sprint Car",
+      "shortName": "Sprint Car",
+      "relativeSpeed": 195,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 36,
+      "name": "Impala Class B",
+      "shortName": "Impala Class B",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 73,
+      "name": "GT1 Class",
+      "shortName": "GT1 Class",
+      "relativeSpeed": 85,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 85,
+      "name": "Dirt Late Model - Limited",
+      "shortName": "DLM Limited",
+      "relativeSpeed": 40,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 92,
+      "name": "Dirt SprintCar - 360",
+      "shortName": "DSC 360",
+      "relativeSpeed": 100,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 115,
+      "name": "Porsche 919",
+      "shortName": "Porsche 919",
+      "relativeSpeed": 180,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 116,
+      "name": "LMP1 Class",
+      "shortName": "LMP1 Class",
+      "relativeSpeed": 180,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 20,
+      "name": "Spec Racer Ford",
+      "shortName": "SRF",
+      "relativeSpeed": 36,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 29,
+      "name": "Whelen Modified",
+      "shortName": " Whelen Modified",
+      "relativeSpeed": 100,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 60,
+      "name": "Super Late Model",
+      "shortName": "Super Late Model",
+      "relativeSpeed": 55,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 76,
+      "name": "Toyota Camry 2015",
+      "shortName": "Camry 2015",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 31,
+      "name": "Mazda MX-5",
+      "shortName": "MX-5",
+      "relativeSpeed": 33,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 32,
+      "name": "Mazda MX-5 Cup",
+      "shortName": "MX-5 Cup",
+      "relativeSpeed": 33,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 53,
+      "name": "Ruf RT 12R AWD",
+      "shortName": "Ruf RT 12R AWD",
+      "relativeSpeed": 48,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 56,
+      "name": "Mustang Class B",
+      "shortName": "Mustang Class B",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 66,
+      "name": "[Legacy] Holden VF Commodore V8",
+      "shortName": "[L] Holden V8",
+      "relativeSpeed": 75,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 70,
+      "name": "[Retired] Chevrolet Silverado",
+      "shortName": "[R] Chevy Silver",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 78,
+      "name": "McLaren MP4-30",
+      "shortName": "McLaren MP4-30",
+      "relativeSpeed": 196,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 94,
+      "name": "Dirt SprintCar - 410wingless",
+      "shortName": "DSC 410W",
+      "relativeSpeed": 90,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 107,
+      "name": "USAC Sprint",
+      "shortName": "USAC Sprint",
+      "relativeSpeed": 75,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 33,
+      "name": "Mazda MX-5 Roadster",
+      "shortName": "MX-5 Roadster",
+      "relativeSpeed": 33,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 40,
+      "name": "HPD ARX-01c",
+      "shortName": "HPD ARX-01c",
+      "relativeSpeed": 130,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 68,
+      "name": "[Legacy] Ford Falcon FG V8",
+      "shortName": "[L] Ford FG V8",
+      "relativeSpeed": 75,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 77,
+      "name": "Corvette C7 Daytona Prototype",
+      "shortName": "C7 DP",
+      "relativeSpeed": 126,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 79,
+      "name": "[Legacy] Mercedes-AMG GT3",
+      "shortName": "[L] AMG GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 80,
+      "name": "[Legacy] Audi R8 GT3",
+      "shortName": "[L] Audi R8 GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 84,
+      "name": "Nissan GTP",
+      "shortName": "Nissan GTP",
+      "relativeSpeed": 135,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 89,
+      "name": "Dirt Legends",
+      "shortName": "Dirt Legends",
+      "relativeSpeed": 20,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 93,
+      "name": "Dirt Sprintcar - 410",
+      "shortName": "DSC 410",
+      "relativeSpeed": 110,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 113,
+      "name": "Audi R18",
+      "shortName": "Audi R18",
+      "relativeSpeed": 180,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 34,
+      "name": "Street Stock - Panther C1",
+      "shortName": "StreetStock PC1",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 41,
+      "name": "Ford GT",
+      "shortName": "Ford GT",
+      "relativeSpeed": 51,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 46,
+      "name": "Lotus 49",
+      "shortName": "Lotus 49",
+      "relativeSpeed": 120,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 47,
+      "name": "[Legacy] McLaren MP4-12C GT3",
+      "shortName": "MP4-12C",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 49,
+      "name": "Chevrolet SS-Gen6",
+      "shortName": "SS-Gen6",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 51,
+      "name": "Ford Fusion",
+      "shortName": "Ford Fusion",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 52,
+      "name": "Ruf RT 12R",
+      "shortName": "Ruf RT 12R",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 54,
+      "name": "Ruf RT 12R RWD",
+      "shortName": "Ruf RT 12R RWD",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 55,
+      "name": "Ruf RT 12R Track",
+      "shortName": "Ruf RT 12R Track",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 57,
+      "name": "[Legacy] Xfinity Series",
+      "shortName": "[L] Xfinity",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 58,
+      "name": "Ruf RT12R CSpec",
+      "shortName": "Ruf RT12R CSpec",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 61,
+      "name": "[Legacy] BMW Z4 GT3",
+      "shortName": "[L]  BMW Z4",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 65,
+      "name": "Ford GT GT3",
+      "shortName": "Ford GT GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 67,
+      "name": "[Legacy] V8Supercars",
+      "shortName": "[L] V8Supercars",
+      "relativeSpeed": 75,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 69,
+      "name": "[Retired] Toyota Tundra",
+      "shortName": "[Retired] Tundra",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 71,
+      "name": "NASCAR Truck Series",
+      "shortName": "NASCAR Trucks",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 72,
+      "name": "Aston Martin",
+      "shortName": "Aston Martin",
+      "relativeSpeed": 85,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 74,
+      "name": "Mazda MX-5 Cup 2016",
+      "shortName": "MX5 Cup 2016",
+      "relativeSpeed": 35,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 81,
+      "name": "Formula Renault 2.0",
+      "shortName": "Renault 2.0",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 82,
+      "name": "[Legacy] GT3 German",
+      "shortName": "[L] GT3 German",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 99,
+      "name": "Ferrari 488 GTE",
+      "shortName": "Ferrari 488 GTE",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 104,
+      "name": "Dirt Midget",
+      "shortName": "Dirt Midget",
+      "relativeSpeed": 40,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 114,
+      "name": "[Legacy] GT3 Bathurst",
+      "shortName": "[L] GT3 Bathurst",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 117,
+      "name": "Dallara IR18",
+      "shortName": "Dallara IR18",
+      "relativeSpeed": 150,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 87,
+      "name": "Dirt SprintCar - 305",
+      "shortName": "DSC 305",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 90,
+      "name": "Dirt Late Model - Pro",
+      "shortName": "DLM Pro",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 91,
+      "name": "Dirt Late Model - Super",
+      "shortName": "DLM Super",
+      "relativeSpeed": 80,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 96,
+      "name": "Dirt SprintCar - 360wingless",
+      "shortName": "DSC 360W",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 97,
+      "name": "VW Beetle GRC",
+      "shortName": "VW Beetle GRC",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 471,
+      "name": "Subaru WRX STI",
+      "shortName": "Subaru WRX STI",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 472,
+      "name": "Porsche 911 RSR",
+      "shortName": "Porsche 911 RSR",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 473,
+      "name": "IMSA2 GT3",
+      "shortName": "IMSA2 GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4034,
+      "name": "Super Formula SF23 - Honda",
+      "shortName": "Super SF23H",
+      "relativeSpeed": 160,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2704,
+      "name": "Dallara iR-01",
+      "shortName": "Dallara iR-01",
+      "relativeSpeed": 196,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2742,
+      "name": "BMW M4 GT3",
+      "shortName": "BMW M4 GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 696,
+      "name": "Chevrolet Camaro ZL1",
+      "shortName": "Camaro ZL1",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 870,
+      "name": "Dallara F3",
+      "shortName": "Dallara F3",
+      "relativeSpeed": 90,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 871,
+      "name": "Formula Renault 3.5",
+      "shortName": "Renault 3.5",
+      "relativeSpeed": 120,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1105,
+      "name": "BMW M8 GTE",
+      "shortName": "BMW M8 GTE",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1276,
+      "name": "Silverado - 2019",
+      "shortName": "Silverado - 2019",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1275,
+      "name": "Ford Mustang - 2019",
+      "shortName": "Ford Mustang",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1277,
+      "name": "Pro 2 Truck",
+      "shortName": "Pro 2 Truck",
+      "relativeSpeed": 51,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1278,
+      "name": "Pro 4 Truck",
+      "shortName": "Pro 4 Truck",
+      "relativeSpeed": 53,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1279,
+      "name": "[Legacy] NASCAR Cup",
+      "shortName": "[L]  NASCAR Cup",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1451,
+      "name": "NASCAR XFINITY Chevrolet Camaro 2019",
+      "shortName": "Camaro 2019",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1452,
+      "name": "NASCAR XFINITY Ford Mustang 2019",
+      "shortName": "Mustang 2019",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1454,
+      "name": "Pro 2 Lite Truck",
+      "shortName": "Pro 2 Lite Truck",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1450,
+      "name": "Audi RS 3 LMS TCR",
+      "shortName": "Audi RS 3 LMS",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 1453,
+      "name": "NASCAR XFINITY Toyota Supra 2019",
+      "shortName": "Supra 2019",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1455,
+      "name": "XFINITY Series",
+      "shortName": "XFINITY Series",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1613,
+      "name": "Holden ZB Commodore V8 - 2019",
+      "shortName": "Holden - 2019",
+      "relativeSpeed": 75,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1614,
+      "name": "[Legacy] Supercars Ford Mustang GT - 2019",
+      "shortName": "Ford GT - 2019",
+      "relativeSpeed": 75,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1615,
+      "name": "Supercars - 2019",
+      "shortName": "Supercars - 2019",
+      "relativeSpeed": 75,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1860,
+      "name": "Porsche 718 Cayman GT4 Clubsport MR",
+      "shortName": "Porsche 718",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2265,
+      "name": "Indy Pro 2000 PM-18",
+      "shortName": "Pro 2000 PM-18",
+      "relativeSpeed": 55,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2271,
+      "name": "NASCAR Legends Ford Thunderbird - 1987",
+      "shortName": "1987 Ford T-bird",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2040,
+      "name": "GTE Class 2",
+      "shortName": "GTE Class 2",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2041,
+      "name": "GT3 Class 2",
+      "shortName": "GT3 Class 2",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2070,
+      "name": "[Legacy] GT3 Nurb",
+      "shortName": "[L] GT3 Nurb",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2264,
+      "name": "BMW M4 F82 GT4 - 2018",
+      "shortName": "BMW M4 GT4",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2266,
+      "name": "USF 2000",
+      "shortName": "USF 2000",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2267,
+      "name": "Ford F150",
+      "shortName": "Ford F150",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2270,
+      "name": "NASCAR Legends Chevrolet Monte Carlo - 1987",
+      "shortName": "1987 Monte Carlo",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2523,
+      "name": "Dallara P217",
+      "shortName": "Dallara P217",
+      "relativeSpeed": 150,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2522,
+      "name": "Corvette C8.R GTE",
+      "shortName": "Vette C8.R GTE",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2525,
+      "name": "GTE Class 3",
+      "shortName": "GTE Class 3",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2706,
+      "name": "Dirt Big Block Modified",
+      "shortName": "Dirt BB Modified",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2709,
+      "name": "GTD Class",
+      "shortName": "GTD Class",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2705,
+      "name": "Lamborghini Huracán GT3 EVO",
+      "shortName": "Lambo Huracán",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2707,
+      "name": "Dirt 358 Modified",
+      "shortName": "Dirt 358 Mod",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2916,
+      "name": "McLaren 570S GT4",
+      "shortName": "McLaren 570S GT4",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3188,
+      "name": "FIA F4",
+      "shortName": "FIA F4",
+      "relativeSpeed": 47,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2937,
+      "name": "GT3 Class 4",
+      "shortName": "GT3 Class 4",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2936,
+      "name": "GT3 Nurb 2",
+      "shortName": "GT3 Nurb 2",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2977,
+      "name": "Toyota Camry - NextGen",
+      "shortName": "Toyota NGC",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2976,
+      "name": "Ford Mustang - NextGen",
+      "shortName": "Mustang NGC",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2978,
+      "name": "NASCAR 2022 NextGen",
+      "shortName": "NASCAR 2022 NG",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3001,
+      "name": "VW Beetle Lite",
+      "shortName": "VW Beetle Lite",
+      "relativeSpeed": 40,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3002,
+      "name": "Formula Vee",
+      "shortName": "Formula Vee",
+      "relativeSpeed": 20,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3022,
+      "name": "GT3 Class 5",
+      "shortName": "GT3 Class 5",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4013,
+      "name": "Mercedes-AMG W13 E Performance",
+      "shortName": "Mercedes-AMG W13",
+      "relativeSpeed": 219,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2975,
+      "name": "Chevrolet Camaro ZL1 - NextGen",
+      "shortName": "Camaro ZL1 NGC",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2974,
+      "name": "GT4 Nurb",
+      "shortName": "GT4 Nurb",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3283,
+      "name": "Radical SR10",
+      "shortName": "Radical SR10",
+      "relativeSpeed": 80,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4000,
+      "name": "Mercedes-AMG GT3 2020",
+      "shortName": "AMG GT3 2020",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4021,
+      "name": "[Legacy] Gen 4 Cup",
+      "shortName": "[L] Gen 4 Cup",
+      "relativeSpeed": 83,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4025,
+      "name": "Porsche 911 GT3 R (992)",
+      "shortName": "Porsche 992GT3R",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4049,
+      "name": "Super Formula Lights",
+      "shortName": "SF Lights",
+      "relativeSpeed": 95,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4050,
+      "name": "SRX",
+      "shortName": "SRX",
+      "relativeSpeed": 47,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4052,
+      "name": "Dirt Micro Sprint Car - Winged",
+      "shortName": "DMS Winged",
+      "relativeSpeed": 42,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4061,
+      "name": "Ford Mustang GT3",
+      "shortName": "Ford Mustang GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4005,
+      "name": "NECGT3",
+      "shortName": "NECGT3",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3104,
+      "name": "Porsche 911 GT3 Cup (992)",
+      "shortName": "Porsche 992",
+      "relativeSpeed": 51,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3105,
+      "name": "Ferrari 488 GT3 Evo 2020",
+      "shortName": "Ferrari Evo GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3186,
+      "name": "Hyundai Elantra N TCR",
+      "shortName": "Elantra N TC",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3242,
+      "name": "Hyundai Veloster N TCR",
+      "shortName": "Veloster N TC",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3244,
+      "name": "Toyota Tundra TRD Pro",
+      "shortName": "Tundra TRD Pro",
+      "relativeSpeed": 60,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3185,
+      "name": "Mercedes-AMG W12 E Performance",
+      "shortName": "AMG W12 E",
+      "relativeSpeed": 220,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3187,
+      "name": "Honda Civic Type R TCR",
+      "shortName": "Civic Type R",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4018,
+      "name": "Ligier JS P320",
+      "shortName": "Ligier JS P320",
+      "relativeSpeed": 72,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3243,
+      "name": "NASCAR Legends Buick LeSabre 1987",
+      "shortName": "Buick LeSabre 87",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4009,
+      "name": "Porsche Mission R",
+      "shortName": "Porsche MissionR",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4001,
+      "name": "Nurburgring 2022 GT3",
+      "shortName": "Nurb22 GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4017,
+      "name": "Late Model Stock",
+      "shortName": "Late Model Stock",
+      "relativeSpeed": 51,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3189,
+      "name": "Touring Car",
+      "shortName": "Touring Car",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3245,
+      "name": "Stock Car Brasil",
+      "shortName": "Stock Car Brasil",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4003,
+      "name": "Nurburgring 2022 Touring",
+      "shortName": "Nurb22 Touring",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4004,
+      "name": "Mercedes-AMG GT4",
+      "shortName": "AMG GT4",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4012,
+      "name": "Toyota GR86",
+      "shortName": "Toyota GR86",
+      "relativeSpeed": 36,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4044,
+      "name": "Shake Up 2023 S4",
+      "shortName": "Shake Up 2023S4",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4046,
+      "name": "Audi R8 LMS EVO II GT3",
+      "shortName": "Audi R8 EVO2 GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4008,
+      "name": "IMPCGT4 Class",
+      "shortName": "IMPCGT4 Class",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3241,
+      "name": "Stock Car Brasil Toyota Corolla",
+      "shortName": "Toyota Corolla",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4002,
+      "name": "Nurburgring 2022 GT4",
+      "shortName": "Nurb22 GT4",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4006,
+      "name": "NECGT4 Class",
+      "shortName": "NECGT4 Class",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4074,
+      "name": "Ferrari 499P",
+      "shortName": "Ferrari 499P",
+      "relativeSpeed": 165,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4057,
+      "name": "NECTCR24",
+      "shortName": "NECTCR24",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4072,
+      "name": "Acura NSX GT3 EVO 22",
+      "shortName": "NSX GT3 EVO22",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 3239,
+      "name": "Aston Martin Vantage GT4",
+      "shortName": "Aston Martin GT4",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4042,
+      "name": "Shiny New Shakedown 2023 S4",
+      "shortName": "Shiny 2023S4",
+      "relativeSpeed": 50,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4060,
+      "name": "Chevrolet Corvette Z06 GT3.R",
+      "shortName": "Corvette Z06GT3R",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4063,
+      "name": "Street Stock - Eagle T3",
+      "shortName": "StreetStock ET3",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4070,
+      "name": "Supercars Chevrolet Camaro Gen 3",
+      "shortName": "Camaro Gen 3",
+      "relativeSpeed": 75,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4086,
+      "name": "ARCA",
+      "shortName": "ARCA",
+      "relativeSpeed": 53,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3240,
+      "name": "Stock Car Brasil Chevrolet Cruze",
+      "shortName": "Chevrolet Cruze",
+      "relativeSpeed": 65,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4035,
+      "name": "Ring Meister 2023",
+      "shortName": "RingMeister23",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4059,
+      "name": "Dirt Outlaw Micro Sprint Car - Non-Winged",
+      "shortName": "Outlaw NonWinged",
+      "relativeSpeed": 35,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4062,
+      "name": "Street Stock - Casino M2",
+      "shortName": "StreetStock CM2",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4068,
+      "name": "Supercars Ford Mustang Gen 3",
+      "shortName": "Mustang Gen 3",
+      "relativeSpeed": 75,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4076,
+      "name": "Supercars Gen 3",
+      "shortName": "Supercars Gen 3",
+      "relativeSpeed": 75,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4010,
+      "name": "BMW M Hybrid V8",
+      "shortName": "BMW M Hybrid V8",
+      "relativeSpeed": 165,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4014,
+      "name": "RoarTouringCar",
+      "shortName": "RoarTouringCar",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4015,
+      "name": "Renault Clio",
+      "shortName": "Renault Clio",
+      "relativeSpeed": 37,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4016,
+      "name": "Ray FF1600",
+      "shortName": "Ray FF1600",
+      "relativeSpeed": 43,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4024,
+      "name": "Cadillac V-Series.R GTP",
+      "shortName": "Cadillac VSRGTP",
+      "relativeSpeed": 165,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4039,
+      "name": "Ring Meister 2023S4",
+      "shortName": "RingMeister23S4",
+      "relativeSpeed": 56,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4033,
+      "name": "Super Formula SF23",
+      "shortName": "Super SF23",
+      "relativeSpeed": 160,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4078,
+      "name": "ARCA Ford Mustang",
+      "shortName": "ARCA Mustang",
+      "relativeSpeed": 53,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4036,
+      "name": "Ferrari 296 GT3",
+      "shortName": "Ferrari 296 GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4037,
+      "name": "Porsche 963 GTP",
+      "shortName": "Porsche 963 GTP",
+      "relativeSpeed": 165,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4038,
+      "name": "NASCAR Legends Pontiac Grand Prix - 1987",
+      "shortName": "Pontiac GP 1987",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4007,
+      "name": "NECTCR Class",
+      "shortName": "NECTCR Class",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4043,
+      "name": "French Connection 2023 S4",
+      "shortName": "French Co 2023S4",
+      "relativeSpeed": 50,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4058,
+      "name": "Dirt Outlaw Micro Sprint Car - Winged",
+      "shortName": "Outlaw - Winged",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4020,
+      "name": "Crev23",
+      "shortName": "Crev23",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4023,
+      "name": "NECGT423",
+      "shortName": "NECGT423",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4085,
+      "name": "NEC TCR 2025",
+      "shortName": "NEC TCR 2025",
+      "relativeSpeed": 45,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4031,
+      "name": "Acura ARX-06 GTP",
+      "shortName": "Acura ARX-06 GTP",
+      "relativeSpeed": 165,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4053,
+      "name": "Dirt Micro Sprint Car - Non-Winged",
+      "shortName": "DMS Non-Winged",
+      "relativeSpeed": 32,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4073,
+      "name": "BMW M2 CS Racing",
+      "shortName": "BMW M2 CS Racing",
+      "relativeSpeed": 42,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4077,
+      "name": "ARCA Chevrolet SS",
+      "shortName": "ARCA Chevy SS",
+      "relativeSpeed": 53,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4069,
+      "name": "Mini Stock",
+      "shortName": "Mini Stock",
+      "relativeSpeed": 100,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4066,
+      "name": "McLaren 720S GT3 EVO",
+      "shortName": "720S EVO GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4067,
+      "name": "BMW M4 G82 GT4",
+      "shortName": "BMW M4 EVO GT4",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4079,
+      "name": "ARCA Toyota Camry",
+      "shortName": "ARCA Camry",
+      "relativeSpeed": 53,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4071,
+      "name": "Dirt Mini Stock",
+      "shortName": "Dirt Mini Stock",
+      "relativeSpeed": 40,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4075,
+      "name": "WoO Pro Series",
+      "shortName": "WoO Pro Series",
+      "relativeSpeed": 95,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 1,
+      "name": "Skip Barber Race Series",
+      "shortName": "SBRS",
+      "relativeSpeed": 40,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4051,
+      "name": "Millbridge23",
+      "shortName": "Millbridge23",
+      "relativeSpeed": 40,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 50,
+      "name": "NASCAR Cup",
+      "shortName": "NASCAR Cup",
+      "relativeSpeed": 81,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 59,
+      "name": "[Legacy] GT3 Class 3",
+      "shortName": "[L] GT3 Class 3",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 101,
+      "name": "IMSA GT3",
+      "shortName": "IMSA GT3",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 22,
+      "name": "Lotus 79",
+      "shortName": "Lotus 79",
+      "relativeSpeed": 125,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 100,
+      "name": "GTE Class",
+      "shortName": "GTE Class",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 105,
+      "name": "Rallycross",
+      "shortName": "Rallycross",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2269,
+      "name": "NASCAR Legends 1987",
+      "shortName": "NASCAR 1987",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 2708,
+      "name": "GT3 Class",
+      "shortName": "GT3 Class",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2268,
+      "name": "GT4 Class",
+      "shortName": "GT4 Class",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 2524,
+      "name": "GTE IMSA",
+      "shortName": "GTE IMSA",
+      "relativeSpeed": 70,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3000,
+      "name": "[Legacy] Porsche 911 GT3 R",
+      "shortName": "[L] Porsche911",
+      "relativeSpeed": 50,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 3190,
+      "name": "IMSA22",
+      "shortName": "IMSA22",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4011,
+      "name": "IMSA23",
+      "shortName": "IMSA23",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4022,
+      "name": "NECGT323",
+      "shortName": "NECGT323",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4029,
+      "name": "GTP",
+      "shortName": "GTP",
+      "relativeSpeed": 179,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4032,
+      "name": "Super Formula SF23 - Toyota",
+      "shortName": "Super SF23T",
+      "relativeSpeed": 160,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4040,
+      "name": "Draft Master",
+      "shortName": "DraftMaster",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4048,
+      "name": "Ring Meister",
+      "shortName": "RingMeister",
+      "relativeSpeed": 52,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4055,
+      "name": "NECGT324",
+      "shortName": "NECGT324",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4056,
+      "name": "NECGT424",
+      "shortName": "NECGT424",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4064,
+      "name": "Street Stocks",
+      "shortName": "Street Stocks",
+      "relativeSpeed": 45,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4080,
+      "name": "Gen 4 Chevrolet Monte Carlo - 2003",
+      "shortName": "Gen 4 Chevy MC",
+      "relativeSpeed": 80,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4081,
+      "name": "Gen 4 Ford Taurus - 2003",
+      "shortName": "Gen4 Ford Taurus",
+      "relativeSpeed": 80,
+      "rainEnabled": false
+    },
+    {
+      "carClassId": 4082,
+      "name": "Ferrari 296 Challenge",
+      "shortName": "Ferrari 296 C",
+      "relativeSpeed": 51,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4083,
+      "name": "NEC GT3 2025",
+      "shortName": "NEC GT3 2025",
+      "relativeSpeed": 52,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4084,
+      "name": "NEC GT4 2025",
+      "shortName": "NEC GT4 2025",
+      "relativeSpeed": 49,
+      "rainEnabled": true
+    },
+    {
+      "carClassId": 4087,
+      "name": "NASCAR 2003 Gen 4",
+      "shortName": "NASCAR Gen 4",
+      "relativeSpeed": 80,
+      "rainEnabled": false
+    }
+  ],
+  "cars": [
+    {
+      "carId": 1,
+      "name": "Skip Barber Formula 2000",
+      "shortName": "SBRS",
+      "carClassId": null,
+      "dirpath": "rt2000",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 2,
+      "name": "Modified - SK",
+      "shortName": "SK",
+      "carClassId": null,
+      "dirpath": "skmodified",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 3,
+      "name": "Pontiac Solstice",
+      "shortName": "SOL",
+      "carClassId": null,
+      "dirpath": "solstice",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 4,
+      "name": "[Legacy] Pro Mazda",
+      "shortName": "PM",
+      "carClassId": null,
+      "dirpath": "formulamazda",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 5,
+      "name": "Legends Ford '34 Coupe",
+      "shortName": "LEG",
+      "carClassId": null,
+      "dirpath": "legends\\ford34c",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 9,
+      "name": "Pace Car - Solstice",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 10,
+      "name": "Pontiac Solstice - Rookie",
+      "shortName": "SOL-R",
+      "carClassId": null,
+      "dirpath": "solstice\\rookie",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 11,
+      "name": "Legends Ford '34 Coupe - Rookie",
+      "shortName": "LEG-R",
+      "carClassId": null,
+      "dirpath": "legends\\ford34c\\rookie",
+      "retired": true,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 12,
+      "name": "[Retired] - Chevrolet Monte Carlo SS",
+      "shortName": "LM",
+      "carClassId": null,
+      "dirpath": "latemodel",
+      "retired": true,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 13,
+      "name": "Radical SR8",
+      "shortName": "SR8",
+      "carClassId": null,
+      "dirpath": "radical\\sr8",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 18,
+      "name": "Silver Crown",
+      "shortName": "SC",
+      "carClassId": null,
+      "dirpath": "silvercrown",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 20,
+      "name": "[Legacy] NASCAR Truck Chevrolet Silverado - 2008",
+      "shortName": "TRUCK",
+      "carClassId": null,
+      "dirpath": "trucks\\silverado",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 21,
+      "name": "[Legacy] Riley MkXX Daytona Prototype - 2008",
+      "shortName": "DP",
+      "carClassId": null,
+      "dirpath": "rileydp",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 22,
+      "name": "[Legacy] NASCAR Cup Chevrolet Impala COT - 2009",
+      "shortName": "CUP",
+      "carClassId": null,
+      "dirpath": "stockcars\\impala",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 23,
+      "name": "SCCA Spec Racer Ford",
+      "shortName": "SRF",
+      "carClassId": null,
+      "dirpath": "specracer",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 24,
+      "name": "ARCA Menards Chevrolet Impala",
+      "shortName": "NW09",
+      "carClassId": null,
+      "dirpath": "stockcars2\\chevy",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 25,
+      "name": "Lotus 79",
+      "shortName": "L79",
+      "carClassId": null,
+      "dirpath": "lotus79",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 26,
+      "name": "Chevrolet Corvette C6.R GT1",
+      "shortName": "C6R GT1",
+      "carClassId": null,
+      "dirpath": "c6r",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 27,
+      "name": "VW Jetta TDI Cup",
+      "shortName": "VWTDI",
+      "carClassId": null,
+      "dirpath": "jettatdi",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 28,
+      "name": "[Legacy] V8 Supercar Ford Falcon - 2009",
+      "shortName": "V8SC",
+      "carClassId": null,
+      "dirpath": "fordv8sc",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 29,
+      "name": "[Legacy] Dallara IR-05",
+      "shortName": "INDY",
+      "carClassId": null,
+      "dirpath": "dallara",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 30,
+      "name": "Ford Mustang FR500S",
+      "shortName": "FR500",
+      "carClassId": null,
+      "dirpath": "fr500s",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 31,
+      "name": "Modified - NASCAR Whelen Tour",
+      "shortName": "TMOD",
+      "carClassId": null,
+      "dirpath": "skmodified\\tour",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 32,
+      "name": "Pace Car - Ford Mustang",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 33,
+      "name": "Williams-Toyota FW31",
+      "shortName": "FW31",
+      "carClassId": null,
+      "dirpath": "williamsfw31",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 34,
+      "name": "[Legacy] Mazda MX-5 Cup - 2010",
+      "shortName": "MX5-C",
+      "carClassId": null,
+      "dirpath": "mx5\\cup",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 35,
+      "name": "[Legacy] Mazda MX-5 Roadster - 2010",
+      "shortName": "MX5-R",
+      "carClassId": null,
+      "dirpath": "mx5\\roadster",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 36,
+      "name": "Street Stock - Panther C1",
+      "shortName": "SS",
+      "carClassId": null,
+      "dirpath": "streetstock",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 37,
+      "name": "Sprint Car",
+      "shortName": "SPRT",
+      "carClassId": null,
+      "dirpath": "sprint",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 38,
+      "name": "[Legacy] NASCAR Nationwide Chevrolet Impala - 2012",
+      "shortName": "IMPB",
+      "carClassId": null,
+      "dirpath": "stockcars2\\chevy\\cot",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 39,
+      "name": "HPD ARX-01c",
+      "shortName": "ARX",
+      "carClassId": null,
+      "dirpath": "hpdarx01c",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 40,
+      "name": "Ford GT GT2\\/GT3",
+      "shortName": "FGT",
+      "carClassId": null,
+      "dirpath": "fordgt",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 41,
+      "name": "Cadillac CTS-V Racecar",
+      "shortName": "CTSVR",
+      "carClassId": null,
+      "dirpath": "cadillacctsvr",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 42,
+      "name": "Lotus 49",
+      "shortName": "L49",
+      "carClassId": null,
+      "dirpath": "lotus49",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 43,
+      "name": "[Legacy] McLaren MP4-12C GT3",
+      "shortName": "MP4",
+      "carClassId": null,
+      "dirpath": "mclarenmp4",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 44,
+      "name": "Kia Optima",
+      "shortName": "KIAOPT",
+      "carClassId": null,
+      "dirpath": "kiaoptima",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 45,
+      "name": "[Legacy] NASCAR Cup Chevrolet SS - 2013",
+      "shortName": "CSS",
+      "carClassId": null,
+      "dirpath": "stockcars\\chevyss",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 46,
+      "name": "[Legacy] NASCAR Cup Ford Fusion - 2016",
+      "shortName": "FF",
+      "carClassId": null,
+      "dirpath": "stockcars\\fordfusion",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 48,
+      "name": "Ruf RT 12R AWD",
+      "shortName": "R12A",
+      "carClassId": null,
+      "dirpath": "rufrt12r\\awd",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 49,
+      "name": "Ruf RT 12R RWD",
+      "shortName": "R12R",
+      "carClassId": null,
+      "dirpath": "rufrt12r\\rwd",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 50,
+      "name": "Ruf RT 12R Track",
+      "shortName": "R12T",
+      "carClassId": null,
+      "dirpath": "rufrt12r\\track",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 51,
+      "name": "[Legacy] NASCAR Xfinity Ford Mustang - 2016",
+      "shortName": "FM",
+      "carClassId": null,
+      "dirpath": "stockcars2\\nwford2013",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 52,
+      "name": "Ruf RT 12R C-Spec",
+      "shortName": "R12C",
+      "carClassId": null,
+      "dirpath": "rufrt12r\\track\\cspec",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 53,
+      "name": "Pace Car - Ruf RT12R",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 54,
+      "name": "Super Late Model",
+      "shortName": "SLM",
+      "carClassId": null,
+      "dirpath": "superlatemodel",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 55,
+      "name": "[Legacy] BMW Z4 GT3",
+      "shortName": "BMWZ",
+      "carClassId": null,
+      "dirpath": "bmwz4gt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 56,
+      "name": "NASCAR Cup Series Toyota Camry",
+      "shortName": "TC",
+      "carClassId": null,
+      "dirpath": "stockcars\\toyotacamry",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 57,
+      "name": "[Legacy] Dallara DW12",
+      "shortName": "DW12",
+      "carClassId": null,
+      "dirpath": "dallaradw12",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 58,
+      "name": "[Legacy] NASCAR Xfinity Chevrolet Camaro - 2014",
+      "shortName": "CCB",
+      "carClassId": null,
+      "dirpath": "stockcars2\\nwcamaro2014",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 59,
+      "name": "Ford GT GT3",
+      "shortName": "FGT3",
+      "carClassId": null,
+      "dirpath": "fordgt\\gt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 60,
+      "name": "[Legacy] V8 Supercar Holden VF Commodore - 2014",
+      "shortName": "HCV8",
+      "carClassId": null,
+      "dirpath": "v8supercars\\holden2014",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 61,
+      "name": "[Legacy] V8 Supercar Ford FG Falcon - 2014",
+      "shortName": "FFV8",
+      "carClassId": null,
+      "dirpath": "v8supercars\\ford2014",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 62,
+      "name": "[Retired] NASCAR Gander Outdoors Toyota Tundra",
+      "shortName": "TT",
+      "carClassId": null,
+      "dirpath": "trucks\\tundra2015",
+      "retired": true,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 63,
+      "name": "[Retired] NASCAR Trucks Series Chevrolet Silverado - 2018",
+      "shortName": "CS",
+      "carClassId": null,
+      "dirpath": "trucks\\silverado2015",
+      "retired": true,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 64,
+      "name": "Aston Martin DBR9 GT1",
+      "shortName": "AM1",
+      "carClassId": null,
+      "dirpath": "astonmartin\\dbr9",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 67,
+      "name": "Global Mazda MX-5 Cup",
+      "shortName": "MX16",
+      "carClassId": null,
+      "dirpath": "mx5\\mx52016",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 69,
+      "name": "[Legacy] NASCAR Xfinity Toyota Camry - 2015",
+      "shortName": "NXTC",
+      "carClassId": null,
+      "dirpath": "stockcars2\\camry2015",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 70,
+      "name": "Chevrolet Corvette C7 Daytona Prototype",
+      "shortName": "C7DP",
+      "carClassId": null,
+      "dirpath": "c7vettedp",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 71,
+      "name": "McLaren MP4-30",
+      "shortName": "MP430",
+      "carClassId": null,
+      "dirpath": "mclarenmp430",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 72,
+      "name": "[Legacy] Mercedes-AMG GT3",
+      "shortName": "MGT3",
+      "carClassId": null,
+      "dirpath": "mercedesamggt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 73,
+      "name": "[Legacy] Audi R8 LMS GT3",
+      "shortName": "AR8",
+      "carClassId": null,
+      "dirpath": "audir8gt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 74,
+      "name": "Formula Renault 2.0",
+      "shortName": "F20",
+      "carClassId": null,
+      "dirpath": "formularenault20",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 76,
+      "name": "Audi 90 GTO",
+      "shortName": "A90",
+      "carClassId": null,
+      "dirpath": "audi90gto",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 77,
+      "name": "Nissan GTP ZX-T",
+      "shortName": "ZXT",
+      "carClassId": null,
+      "dirpath": "nissangtpzxt",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 78,
+      "name": "Dirt Late Model - Limited",
+      "shortName": "DLM350",
+      "carClassId": null,
+      "dirpath": "dirtlatemodel\\350",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 79,
+      "name": "Dirt Street Stock",
+      "shortName": "SSD",
+      "carClassId": null,
+      "dirpath": "dirtstreetstock",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 80,
+      "name": "Dirt Sprint Car - 305",
+      "shortName": "DSC305",
+      "carClassId": null,
+      "dirpath": "dirtsprint\\winged\\305",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 81,
+      "name": "Ford Fiesta RS WRC",
+      "shortName": "FF-WSC",
+      "carClassId": null,
+      "dirpath": "fordfiestarswrc",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 82,
+      "name": "Dirt Legends Ford '34 Coupe",
+      "shortName": "LEG-D",
+      "carClassId": null,
+      "dirpath": "legends\\dirtford34c",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 83,
+      "name": "Dirt Late Model - Pro",
+      "shortName": "DLM358",
+      "carClassId": null,
+      "dirpath": "dirtlatemodel\\358",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 84,
+      "name": "Dirt Late Model - Super",
+      "shortName": "DLM438",
+      "carClassId": null,
+      "dirpath": "dirtlatemodel\\438",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 85,
+      "name": "Dirt Sprint Car - 360",
+      "shortName": "DSC360",
+      "carClassId": null,
+      "dirpath": "dirtsprint\\winged\\360",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 86,
+      "name": "Dirt Sprint Car - 410",
+      "shortName": "DSC410",
+      "carClassId": null,
+      "dirpath": "dirtsprint\\winged\\410",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 87,
+      "name": "Dirt Sprint Car - 360 Non-Winged",
+      "shortName": "DS360NW",
+      "carClassId": null,
+      "dirpath": "dirtsprint\\nonwinged\\360",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 88,
+      "name": "[Legacy] Porsche 911 GT3 Cup (991)",
+      "shortName": "P911",
+      "carClassId": null,
+      "dirpath": "porsche911cup",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 89,
+      "name": "Dirt Sprint Car - 410 Non-Winged",
+      "shortName": "DS410NW",
+      "carClassId": null,
+      "dirpath": "dirtsprint\\nonwinged\\410",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 90,
+      "name": "Pace Car - Truck",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 91,
+      "name": "VW Beetle",
+      "shortName": "VWB",
+      "carClassId": null,
+      "dirpath": "vwbeetlegrc",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 92,
+      "name": "Ford GTE",
+      "shortName": "FGT7",
+      "carClassId": null,
+      "dirpath": "fordgt2017",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 93,
+      "name": "Ferrari 488 GTE",
+      "shortName": "488E",
+      "carClassId": null,
+      "dirpath": "ferrari488gte",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 94,
+      "name": "[Legacy] Ferrari 488 GT3",
+      "shortName": "488T3",
+      "carClassId": null,
+      "dirpath": "ferrari488gt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 95,
+      "name": "Dirt UMP Modified",
+      "shortName": "UMP",
+      "carClassId": null,
+      "dirpath": "dirtumpmod",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 96,
+      "name": "Dirt Midget",
+      "shortName": "DM",
+      "carClassId": null,
+      "dirpath": "dirtmidget",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 98,
+      "name": "Audi R18",
+      "shortName": "AR18",
+      "carClassId": null,
+      "dirpath": "audir18",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 99,
+      "name": "Dallara IR18",
+      "shortName": "IR18",
+      "carClassId": null,
+      "dirpath": "dallarair18",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 100,
+      "name": "Porsche 919",
+      "shortName": "919",
+      "carClassId": null,
+      "dirpath": "porsche919",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 101,
+      "name": "Subaru WRX STI",
+      "shortName": "WRX",
+      "carClassId": null,
+      "dirpath": "subaruwrxsti",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 102,
+      "name": "Porsche 911 RSR",
+      "shortName": "RSR",
+      "carClassId": null,
+      "dirpath": "porsche991rsr",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 103,
+      "name": "NASCAR Cup Series Chevrolet Camaro ZL1",
+      "shortName": "ZL1",
+      "carClassId": null,
+      "dirpath": "stockcars\\camarozl12018",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 104,
+      "name": "Lucas Oil Off Road Pro 2 Truck",
+      "shortName": "PRO2",
+      "carClassId": null,
+      "dirpath": "protrucks\\pro2truck",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 105,
+      "name": "Formula Renault 3.5",
+      "shortName": "F35",
+      "carClassId": null,
+      "dirpath": "formularenault35",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 106,
+      "name": "Dallara F3",
+      "shortName": "F317",
+      "carClassId": null,
+      "dirpath": "dallaraf3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 107,
+      "name": "Lucas Oil Off Road Pro 4 Truck",
+      "shortName": "PRO4",
+      "carClassId": null,
+      "dirpath": "protrucks\\pro4truck",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 108,
+      "name": "Pace Car - Porsche",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 109,
+      "name": "BMW M8 GTE",
+      "shortName": "BMWM8",
+      "carClassId": null,
+      "dirpath": "bmwm8gte",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 110,
+      "name": "NASCAR Cup Series Ford Mustang",
+      "shortName": "FM2019",
+      "carClassId": null,
+      "dirpath": "stockcars\\fordmustang2019",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 111,
+      "name": "NASCAR Truck Chevrolet Silverado",
+      "shortName": "CS2019",
+      "carClassId": null,
+      "dirpath": "trucks\\silverado2019",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 112,
+      "name": "Audi RS 3 LMS TCR",
+      "shortName": "RS3",
+      "carClassId": null,
+      "dirpath": "audirs3lms",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 113,
+      "name": "Lucas Oil Off Road Pro 2 Lite",
+      "shortName": "PRO2L",
+      "carClassId": null,
+      "dirpath": "protrucks\\pro2lite",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 114,
+      "name": "NASCAR XFINITY Chevrolet Camaro",
+      "shortName": "XCC",
+      "carClassId": null,
+      "dirpath": "stockcars2\\camaro2019",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 115,
+      "name": "NASCAR XFINITY Ford Mustang",
+      "shortName": "XFM",
+      "carClassId": null,
+      "dirpath": "stockcars2\\mustang2019",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 116,
+      "name": "NASCAR XFINITY Toyota Supra",
+      "shortName": "XTS",
+      "carClassId": null,
+      "dirpath": "stockcars2\\supra2019",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 117,
+      "name": "[Legacy] Supercars Holden ZB Commodore",
+      "shortName": "HZBC",
+      "carClassId": null,
+      "dirpath": "v8supercars\\holden2019",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 118,
+      "name": "[Legacy] Supercars Ford Mustang GT",
+      "shortName": "FMGT",
+      "carClassId": null,
+      "dirpath": "v8supercars\\fordmustanggt",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 119,
+      "name": "Porsche 718 Cayman GT4 Clubsport MR",
+      "shortName": "P718",
+      "carClassId": null,
+      "dirpath": "porsche718gt4",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 120,
+      "name": "Indy Pro 2000 PM-18",
+      "shortName": "PM18",
+      "carClassId": null,
+      "dirpath": "indypropm18",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 121,
+      "name": "USF 2000",
+      "shortName": "PM17",
+      "carClassId": null,
+      "dirpath": "usf2000usf17",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 122,
+      "name": "BMW M4 GT4",
+      "shortName": "BMWM4",
+      "carClassId": null,
+      "dirpath": "bmwm4gt4",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 123,
+      "name": "NASCAR Truck Ford F150",
+      "shortName": "F150",
+      "carClassId": null,
+      "dirpath": "trucks\\fordf150",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 124,
+      "name": "NASCAR Legends Chevrolet Monte Carlo - 1987",
+      "shortName": "C87",
+      "carClassId": null,
+      "dirpath": "stockcars\\chevymontecarlo87",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 125,
+      "name": "NASCAR Legends Ford Thunderbird - 1987",
+      "shortName": "F87",
+      "carClassId": null,
+      "dirpath": "stockcars\\fordthunderbird87",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 127,
+      "name": "Chevrolet Corvette C8.R GTE",
+      "shortName": "C8R",
+      "carClassId": null,
+      "dirpath": "c8rvettegte",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 128,
+      "name": "Dallara P217",
+      "shortName": "P217",
+      "carClassId": null,
+      "dirpath": "dallarap217",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 129,
+      "name": "Dallara iR-01",
+      "shortName": "IR01",
+      "carClassId": null,
+      "dirpath": "dallarair01",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 131,
+      "name": "Dirt Big Block Modified",
+      "shortName": "BBM",
+      "carClassId": null,
+      "dirpath": "dirtmodified\\bigblock",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 132,
+      "name": "BMW M4 GT3 - Prototype",
+      "shortName": "M4GT3",
+      "carClassId": null,
+      "dirpath": "bmwm4gt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 133,
+      "name": "Lamborghini Huracán GT3 EVO",
+      "shortName": "LGT3",
+      "carClassId": null,
+      "dirpath": "lamborghinievogt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 134,
+      "name": "Dirt 358 Modified",
+      "shortName": "358MOD",
+      "carClassId": null,
+      "dirpath": "dirtmodified\\358",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 135,
+      "name": "McLaren 570S GT4",
+      "shortName": "M570S",
+      "carClassId": null,
+      "dirpath": "mclaren570sgt4",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 136,
+      "name": "Pace Car - Sedan",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 137,
+      "name": "[Legacy] Porsche 911 GT3 R",
+      "shortName": "PGTR",
+      "carClassId": null,
+      "dirpath": "porsche911rgt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 138,
+      "name": "VW Beetle - Lite",
+      "shortName": "VWBL",
+      "carClassId": null,
+      "dirpath": "vwbeetlegrc\\lite",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 139,
+      "name": "NASCAR Cup Series Next Gen Chevrolet Camaro ZL1",
+      "shortName": "NGC",
+      "carClassId": null,
+      "dirpath": "stockcars\\chevycamarozl12022",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 140,
+      "name": "NASCAR Cup Series Next Gen Ford Mustang",
+      "shortName": "NGF",
+      "carClassId": null,
+      "dirpath": "stockcars\\fordmustang2022",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 141,
+      "name": "NASCAR Cup Series Next Gen Toyota Camry",
+      "shortName": "NGT",
+      "carClassId": null,
+      "dirpath": "stockcars\\toyotacamry2022",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 142,
+      "name": "Formula Vee",
+      "shortName": "FVEE",
+      "carClassId": null,
+      "dirpath": "formulavee",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 143,
+      "name": "Porsche 911 GT3 Cup (992)",
+      "shortName": "P992",
+      "carClassId": null,
+      "dirpath": "porsche992cup",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 144,
+      "name": "Ferrari 488 GT3 Evo 2020",
+      "shortName": "FEVO",
+      "carClassId": null,
+      "dirpath": "ferrarievogt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 145,
+      "name": "Mercedes-AMG W12 E Performance",
+      "shortName": "MW12",
+      "carClassId": null,
+      "dirpath": "mercedesw12",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 146,
+      "name": "Hyundai Elantra N TCR",
+      "shortName": "HECN7",
+      "carClassId": null,
+      "dirpath": "hyundaielantracn7",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 147,
+      "name": "Honda Civic Type R TCR",
+      "shortName": "HCTR",
+      "carClassId": null,
+      "dirpath": "hondacivictyper",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 148,
+      "name": "FIA F4",
+      "shortName": "F4",
+      "carClassId": null,
+      "dirpath": "formulair04",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 149,
+      "name": "Radical SR10",
+      "shortName": "SR10",
+      "carClassId": null,
+      "dirpath": "radicalsr10",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 150,
+      "name": "Aston Martin Vantage GT4",
+      "shortName": "AMV4",
+      "carClassId": null,
+      "dirpath": "amvantagegt4",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 151,
+      "name": "Stock Car Brasil Chevrolet Cruze",
+      "shortName": "SCCC",
+      "carClassId": null,
+      "dirpath": "stockcarbrasil\\cruze",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 152,
+      "name": "Stock Car Brasil Toyota Corolla",
+      "shortName": "SCTC",
+      "carClassId": null,
+      "dirpath": "stockcarbrasil\\corolla",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 153,
+      "name": "Hyundai Veloster N TCR",
+      "shortName": "HVTC",
+      "carClassId": null,
+      "dirpath": "hyundaivelostern",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 154,
+      "name": "NASCAR Legends Buick LeSabre - 1987",
+      "shortName": "B87",
+      "carClassId": null,
+      "dirpath": "stockcars\\buicklesabre87",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 155,
+      "name": "NASCAR Truck Toyota Tundra TRD Pro",
+      "shortName": "TTP",
+      "carClassId": null,
+      "dirpath": "trucks\\toyotatundra2022",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 156,
+      "name": "Mercedes-AMG GT3 2020",
+      "shortName": "MGT3E",
+      "carClassId": null,
+      "dirpath": "mercedesamgevogt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 157,
+      "name": "Mercedes-AMG GT4",
+      "shortName": "MGT4",
+      "carClassId": null,
+      "dirpath": "mercedesamggt4",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 158,
+      "name": "Porsche Mission R",
+      "shortName": "PMR",
+      "carClassId": null,
+      "dirpath": "porschemissionr",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 159,
+      "name": "BMW M Hybrid V8",
+      "shortName": "BMWGTP",
+      "carClassId": null,
+      "dirpath": "bmwlmdh",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 160,
+      "name": "Toyota GR86",
+      "shortName": "GR86",
+      "carClassId": null,
+      "dirpath": "toyotagr86",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 161,
+      "name": "Mercedes-AMG W13 E Performance",
+      "shortName": "MW13",
+      "carClassId": null,
+      "dirpath": "mercedesw13",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 162,
+      "name": "Renault Clio",
+      "shortName": "RENC",
+      "carClassId": null,
+      "dirpath": "renaultcliocup",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 163,
+      "name": "Ray FF1600",
+      "shortName": "GR22",
+      "carClassId": null,
+      "dirpath": "raygr22",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 164,
+      "name": "Late Model Stock",
+      "shortName": "LM23",
+      "carClassId": null,
+      "dirpath": "latemodel2023",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 165,
+      "name": "Ligier JS P320",
+      "shortName": "LJSP",
+      "carClassId": null,
+      "dirpath": "ligierjsp320",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 167,
+      "name": "Gen 4 Cup",
+      "shortName": "G4CUP",
+      "carClassId": null,
+      "dirpath": "stockcars2\\chevy\\gen4cup",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 168,
+      "name": "Cadillac V-Series.R GTP",
+      "shortName": "CGTP",
+      "carClassId": null,
+      "dirpath": "cadillacvseriesrgtp",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 169,
+      "name": "Porsche 911 GT3 R (992)",
+      "shortName": "992R",
+      "carClassId": null,
+      "dirpath": "porsche992rgt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 170,
+      "name": "Acura ARX-06 GTP",
+      "shortName": "AGTP",
+      "carClassId": null,
+      "dirpath": "acuraarx06gtp",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 171,
+      "name": "Super Formula SF23 - Toyota",
+      "shortName": "SF23T",
+      "carClassId": null,
+      "dirpath": "superformulasf23\\toyota",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 172,
+      "name": "Super Formula SF23 - Honda",
+      "shortName": "SF23H",
+      "carClassId": null,
+      "dirpath": "superformulasf23\\honda",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 173,
+      "name": "Ferrari 296 GT3",
+      "shortName": "F296",
+      "carClassId": null,
+      "dirpath": "ferrari296gt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 174,
+      "name": "Porsche 963 GTP",
+      "shortName": "PGTP",
+      "carClassId": null,
+      "dirpath": "porsche963gtp",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 175,
+      "name": "NASCAR Legends Pontiac Grand Prix - 1987",
+      "shortName": "P87",
+      "carClassId": null,
+      "dirpath": "stockcars\\pontiacgrandprix87",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 176,
+      "name": "Audi R8 LMS EVO II GT3",
+      "shortName": "AEVO2",
+      "carClassId": null,
+      "dirpath": "audir8lmsevo2gt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 178,
+      "name": "Super Formula Lights",
+      "shortName": "SFL324",
+      "carClassId": null,
+      "dirpath": "superformulalights324",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 179,
+      "name": "SRX",
+      "shortName": "SRX",
+      "carClassId": null,
+      "dirpath": "srx",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 180,
+      "name": "Dirt Micro Sprint Car - Winged",
+      "shortName": "MSCW",
+      "carClassId": null,
+      "dirpath": "dirtmicrosprint\\winged",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 181,
+      "name": "Dirt Micro Sprint Car - Non-Winged",
+      "shortName": "MSCNW",
+      "carClassId": null,
+      "dirpath": "dirtmicrosprint\\nonwinged",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 182,
+      "name": "Dirt Outlaw Micro Sprint Car - Winged",
+      "shortName": "MSCOW",
+      "carClassId": null,
+      "dirpath": "dirtmicrosprint\\winged\\outlaw",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 183,
+      "name": "Dirt Outlaw Micro Sprint Car - Non-Winged",
+      "shortName": "MSCONW",
+      "carClassId": null,
+      "dirpath": "dirtmicrosprint\\nonwinged\\outlaw",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 184,
+      "name": "Chevrolet Corvette Z06 GT3.R",
+      "shortName": "CZ06",
+      "carClassId": null,
+      "dirpath": "chevyvettez06rgt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 185,
+      "name": "Ford Mustang GT3",
+      "shortName": "FMGT3",
+      "carClassId": null,
+      "dirpath": "fordmustanggt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 186,
+      "name": "Street Stock - Casino M2",
+      "shortName": "SSC",
+      "carClassId": null,
+      "dirpath": "streetstock\\streetstock2",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 187,
+      "name": "Street Stock - Eagle T3",
+      "shortName": "SSE",
+      "carClassId": null,
+      "dirpath": "streetstock\\streetstock3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 188,
+      "name": "McLaren 720S GT3 EVO",
+      "shortName": "720GT3",
+      "carClassId": null,
+      "dirpath": "mclaren720sgt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 189,
+      "name": "BMW M4 G82 GT4",
+      "shortName": "BMWGT4",
+      "carClassId": null,
+      "dirpath": "bmwm4evogt4",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 190,
+      "name": "Supercars Ford Mustang Gen 3",
+      "shortName": "SFMG3",
+      "carClassId": null,
+      "dirpath": "supercars\\fordmustanggen3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 191,
+      "name": "Mini Stock",
+      "shortName": "MNSTK",
+      "carClassId": null,
+      "dirpath": "ministock",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 192,
+      "name": "Supercars Chevrolet Camaro Gen 3",
+      "shortName": "SCCG3",
+      "carClassId": null,
+      "dirpath": "supercars\\chevycamarogen3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 193,
+      "name": "Dirt Mini Stock",
+      "shortName": "DMNST",
+      "carClassId": null,
+      "dirpath": "dirtministock",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 194,
+      "name": "Acura NSX GT3 EVO 22",
+      "shortName": "NSXE22",
+      "carClassId": null,
+      "dirpath": "acuransxevo22gt3",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 195,
+      "name": "BMW M2 CS Racing",
+      "shortName": "BMWM2",
+      "carClassId": null,
+      "dirpath": "bmwm2csr",
+      "retired": false,
+      "freeWithSubscription": true
+    },
+    {
+      "carId": 196,
+      "name": "Ferrari 499P",
+      "shortName": "F499P",
+      "carClassId": null,
+      "dirpath": "ferrari499p",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 197,
+      "name": "Pace Car - BMW M2 CSR",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 198,
+      "name": "ARCA Chevrolet SS",
+      "shortName": "ACSS25",
+      "carClassId": null,
+      "dirpath": "stockcars2\\arcachevy25",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 199,
+      "name": "ARCA Ford Mustang",
+      "shortName": "ARCAFM",
+      "carClassId": null,
+      "dirpath": "stockcars2\\arcaford25",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 200,
+      "name": "ARCA Toyota Camry",
+      "shortName": "ARCATC",
+      "carClassId": null,
+      "dirpath": "stockcars2\\arcatoyota25",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 201,
+      "name": "Gen 4 Chevrolet Monte Carlo - 2003",
+      "shortName": "G4CMC",
+      "carClassId": null,
+      "dirpath": "stockcars\\chevymontecarlo03",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 202,
+      "name": "Gen 4 Ford Taurus - 2003",
+      "shortName": "G4FT",
+      "carClassId": null,
+      "dirpath": "stockcars\\fordtaurus03",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 203,
+      "name": "Ferrari 296 Challenge",
+      "shortName": "F296C",
+      "carClassId": null,
+      "dirpath": "ferrari296challenge",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 204,
+      "name": "Ford Mustang GT4",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 205,
+      "name": "Dallara IL-15",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 206,
+      "name": "Aston Martin Vantage GT3 EVO",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 207,
+      "name": "FIA Cross Car",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 208,
+      "name": "Porsche 911 Cup (992.2)",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 210,
+      "name": "Audi RS3 LMS Gen2 TCR",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    },
+    {
+      "carId": 211,
+      "name": "NASCAR Truck RAM",
+      "shortName": "",
+      "carClassId": null,
+      "dirpath": "",
+      "retired": false,
+      "freeWithSubscription": false
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+	"adaptiveAIEnabled": true,
+	"adaptiveAIDifficulty": 0,
+	"aiCarClassIds": [
+		74,
+		4012,
+		4015,
+		4073
+	],
+	"avoidUser": false,
+	"carId": 67,
+	"carSettings": [
+		{
+			"car_id": 67,
+			"max_pct_fuel_fill": 100,
+			"max_dry_tire_sets": 0
+		},
+		{
+			"car_id": 160,
+			"max_pct_fuel_fill": 100,
+			"max_dry_tire_sets": 0
+		},
+		{
+			"car_id": 162,
+			"max_pct_fuel_fill": 100,
+			"max_dry_tire_sets": 0
+		},
+		{
+			"car_id": 195,
+			"max_pct_fuel_fill": 100,
+			"max_dry_tire_sets": 0
+		}
+	],
+	"category_id": 5,
+	"damage_model": 0,
+	"do_not_count_caution_laps": false,
+	"full_course_cautions": false,
+	"gridPosition": 1,
+	"incident_limit": 0,
+	"incident_warn_mode": 0,
+	"incident_warn_param1": 0,
+	"incident_warn_param2": 0,
+	"lucky_dog": false,
+	"max_drivers": 29,
+	"maxSkill": 40,
+	"minSkill": 10,
+	"max_visor_tearoffs": -1,
+	"multiclassType": 2,
+	"must_use_diff_tire_types_in_race": false,
+	"no_lapper_wave_arounds": false,
+	"num_fast_tows": 1,
+	"practice_length": 15,
+	"qualify_laps": 2,
+	"qualify_length": 10,
+	"race_laps": 0,
+	"race_length_type": 2,
+	"race_length": 15,
+	"restarts": 2,
+	"rolling_starts": true,
+	"rosterName": "Production Car Challenge",
+	"short_parade_lap": true,
+	"start_on_qual_tire": false,
+	"startZone": 0,
+	"subsessions": [
+		3,
+		4,
+		6
+	],
+	"time_of_day": 0,
+	"track_state": {
+		"leave_marbles": true,
+		"practice_rubber": -1,
+		"qualify_rubber": -1,
+		"race_rubber": -1,
+		"warmup_rubber": -1
+	},
+	"unsport_conduct_rule_mode": 0,
+	"userCarClassId": 74,
+	"weather": {
+		"type": 3,
+		"temp_units": 0,
+		"temp_value": 78,
+		"rel_humidity": 45,
+		"fog": 0,
+		"wind_dir": 0,
+		"wind_units": 0,
+		"wind_value": 2,
+		"skies": 1,
+		"simulated_start_time": "2025-05-15T15:25:06",
+		"simulated_time_multiplier": 1,
+		"simulated_time_offsets": [
+			25,
+			45
+		],
+		"version": 2,
+		"weather_var_initial": 0,
+		"weather_var_ongoing": 0,
+		"time_of_day": 0,
+		"track_water": 0
+	},
+	"events": [
+		{
+			"trackId": 47,
+			"num_opt_laps": 0,
+			"paceCar": {
+				"category_id": 2,
+				"car_id": 90,
+				"is_oval": false,
+				"is_dirt": false,
+				"car_name": "Pace Car - Truck",
+				"car_class_id": 11,
+				"order": 5
+			},
+			"short_parade_lap": false,
+			"must_use_diff_tire_types_in_race": false,
+			"subsessions": [
+				3,
+				4,
+				6
+			],
+			"eventId": "05ecaada-8581-edc7-0fb6-66518032d2c8"
+		}
+	],
+	"points_system_id": 4,
+	"name": "Production Car Challenge",
+	"ai_season_id": 0,
+	"search_filters": [],
+	"event_count": 1,
+	"car_name": "Global Mazda MX-5 Cup",
+	"next_track_name": "Okayama International Circuit",
+	"starred": false,
+	"official": true
+}

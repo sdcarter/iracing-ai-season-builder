@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iRacing AI: Season Builder</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <h1>iRacing AI: Season Builder</h1>
+      <p class="sub">Pick a season, series, and car, then download your season JSON.</p>
+
+      <form id="selectorForm" class="panel">
+        <label for="seasonSelect">Season</label>
+        <select id="seasonSelect" name="season" required>
+          <option value="2026s2">2026s2</option>
+        </select>
+
+        <label for="seriesSelect">Series</label>
+        <select id="seriesSelect" name="series" required>
+          <option value="production-car-challenge">Production Car Challenge</option>
+        </select>
+
+        <label for="carSelect">Your Car</label>
+        <select id="carSelect" name="car" required></select>
+
+        <label for="fileNameInput">Output File Name</label>
+        <input id="fileNameInput" name="fileName" type="text" readonly />
+
+        <button id="downloadBtn" type="submit">Download JSON</button>
+      </form>
+
+      <p id="status" class="status" aria-live="polite"></p>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs" type="module"></script>
+    <script type="module">
+      import * as pdfjsLib from "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs";
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs";
+      window.pdfjsLib = pdfjsLib;
+      await import("./app.js");
+    </script>
+  </body>
+</html>

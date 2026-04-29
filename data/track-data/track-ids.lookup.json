@@ -1,0 +1,2350 @@
+{
+  "description": "iRacing track lookup with track IDs. Source: iRacing GTM track_id map (macro 23) from member site payload",
+  "tracks": [
+    {
+      "name": "[Legacy] Lime Rock Park - 2008 - Full Course",
+      "trackId": 1,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Virginia International Raceway - [Retired] Full Course",
+      "trackId": 2,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Virginia International Raceway - [Retired] Patriot",
+      "trackId": 3,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Virginia International Raceway - [Retired] North",
+      "trackId": 4,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Virginia International Raceway - [Retired] Grand West",
+      "trackId": 5,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Virginia International Raceway - [Retired] Grand East",
+      "trackId": 6,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Virginia International Raceway - [Retired] South",
+      "trackId": 7,
+      "filepath": ""
+    },
+    {
+      "name": "Summit Point Raceway - Jefferson Circuit",
+      "trackId": 8,
+      "filepath": ""
+    },
+    {
+      "name": "Summit Point Raceway - Summit Point Raceway",
+      "trackId": 9,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Summit Point Raceway - [Retired] Shenandoah Circuit",
+      "trackId": 10,
+      "filepath": ""
+    },
+    {
+      "name": "Stafford Motor Speedway - Full Course",
+      "trackId": 11,
+      "filepath": ""
+    },
+    {
+      "name": "Oxford Plains Speedway",
+      "trackId": 12,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Oxford Plains Speedway - [Retired] Short",
+      "trackId": 13,
+      "filepath": ""
+    },
+    {
+      "name": "South Boston Speedway",
+      "trackId": 14,
+      "filepath": ""
+    },
+    {
+      "name": "Concord Speedway",
+      "trackId": 15,
+      "filepath": ""
+    },
+    {
+      "name": "USA International Speedway - Asphalt",
+      "trackId": 16,
+      "filepath": ""
+    },
+    {
+      "name": "Lanier National Speedway - Asphalt",
+      "trackId": 17,
+      "filepath": ""
+    },
+    {
+      "name": "Road America - Full Course",
+      "trackId": 18,
+      "filepath": ""
+    },
+    {
+      "name": "Irwindale Speedway - Inner",
+      "trackId": 19,
+      "filepath": ""
+    },
+    {
+      "name": "Homestead Miami Speedway - Oval",
+      "trackId": 20,
+      "filepath": ""
+    },
+    {
+      "name": "Homestead Miami Speedway - Road Course A",
+      "trackId": 21,
+      "filepath": ""
+    },
+    {
+      "name": "Homestead Miami Speedway - Road Course B",
+      "trackId": 22,
+      "filepath": ""
+    },
+    {
+      "name": "Irwindale Speedway - Outer",
+      "trackId": 23,
+      "filepath": ""
+    },
+    {
+      "name": "Summit Point Raceway - Short",
+      "trackId": 24,
+      "filepath": ""
+    },
+    {
+      "name": "Summit Point Raceway - Oval",
+      "trackId": 25,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - Road Course - 2008",
+      "trackId": 26,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - Oval - 2008",
+      "trackId": 27,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - Moto - 2008",
+      "trackId": 28,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - Short - 2008",
+      "trackId": 29,
+      "filepath": ""
+    },
+    {
+      "name": "Irwindale Speedway - Outer - Inner",
+      "trackId": 30,
+      "filepath": ""
+    },
+    {
+      "name": "Richmond Raceway",
+      "trackId": 31,
+      "filepath": ""
+    },
+    {
+      "name": "Stafford Motor Speedway - Mini Mile",
+      "trackId": 32,
+      "filepath": ""
+    },
+    {
+      "name": "Martinsville Speedway",
+      "trackId": 33,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Lime Rock Park - 2008 - Chicane",
+      "trackId": 34,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Charlotte Motor Speedway - 2008 - Road Course",
+      "trackId": 37,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Charlotte Motor Speedway - 2008 - Infield Road Course",
+      "trackId": 38,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Charlotte Motor Speedway - 2008 - Legends Oval",
+      "trackId": 39,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Charlotte Motor Speedway - 2008 - Oval",
+      "trackId": 40,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Silverstone Circuit - 2008 - Grand Prix",
+      "trackId": 41,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Silverstone Circuit - 2008 - Historical Grand Prix",
+      "trackId": 42,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Silverstone Circuit - 2008 - International",
+      "trackId": 43,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Silverstone Circuit - 2008 - National",
+      "trackId": 44,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Silverstone Circuit - 2008 - Southern",
+      "trackId": 45,
+      "filepath": ""
+    },
+    {
+      "name": "Barber Motorsports Park - Full Course",
+      "trackId": 46,
+      "filepath": ""
+    },
+    {
+      "name": "WeatherTech Raceway at Laguna Seca - Full Course",
+      "trackId": 47,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - NASCAR Short",
+      "trackId": 48,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Open Wheel pre-2008",
+      "trackId": 49,
+      "filepath": ""
+    },
+    {
+      "name": "Road America - Bend",
+      "trackId": 50,
+      "filepath": ""
+    },
+    {
+      "name": "Atlanta Motor Speedway - Road - 2008",
+      "trackId": 51,
+      "filepath": ""
+    },
+    {
+      "name": "Atlanta Motor Speedway - Legends Oval - 2008",
+      "trackId": 52,
+      "filepath": ""
+    },
+    {
+      "name": "Atlanta Motor Speedway - Oval - 2008",
+      "trackId": 53,
+      "filepath": ""
+    },
+    {
+      "name": "The Milwaukee Mile",
+      "trackId": 94,
+      "filepath": ""
+    },
+    {
+      "name": "Sebring International Raceway - International",
+      "trackId": 95,
+      "filepath": ""
+    },
+    {
+      "name": "Sebring International Raceway - Modified",
+      "trackId": 96,
+      "filepath": ""
+    },
+    {
+      "name": "Sebring International Raceway - Club",
+      "trackId": 97,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - NASCAR Long",
+      "trackId": 98,
+      "filepath": ""
+    },
+    {
+      "name": "Barber Motorsports Park - Short A",
+      "trackId": 99,
+      "filepath": ""
+    },
+    {
+      "name": "Barber Motorsports Park - Short B",
+      "trackId": 100,
+      "filepath": ""
+    },
+    {
+      "name": "Bristol Motor Speedway - Dual Pit Roads",
+      "trackId": 101,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Open Wheel 2008-2011",
+      "trackId": 102,
+      "filepath": ""
+    },
+    {
+      "name": "Las Vegas Motor Speedway - Oval",
+      "trackId": 103,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Phoenix Raceway - 2008 - Oval",
+      "trackId": 104,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Phoenix Raceway - 2008 - Road Course",
+      "trackId": 105,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Watkins Glen International - [Retired] Cup",
+      "trackId": 106,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Watkins Glen International - [Retired] Boot",
+      "trackId": 107,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Watkins Glen International - [Retired] Classic Boot",
+      "trackId": 108,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Watkins Glen International - [Retired] Classic",
+      "trackId": 109,
+      "filepath": ""
+    },
+    {
+      "name": "Las Vegas Motor Speedway - Legends Oval",
+      "trackId": 110,
+      "filepath": ""
+    },
+    {
+      "name": "Las Vegas Motor Speedway - Road Course Long",
+      "trackId": 111,
+      "filepath": ""
+    },
+    {
+      "name": "Las Vegas Motor Speedway - Road Course Short",
+      "trackId": 112,
+      "filepath": ""
+    },
+    {
+      "name": "Las Vegas Motor Speedway - Infield Legends Oval",
+      "trackId": 113,
+      "filepath": ""
+    },
+    {
+      "name": "Las Vegas Motor Speedway - Road Course Combined",
+      "trackId": 114,
+      "filepath": ""
+    },
+    {
+      "name": "Darlington Raceway",
+      "trackId": 115,
+      "filepath": ""
+    },
+    {
+      "name": "Talladega Superspeedway",
+      "trackId": 116,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Texas Motor Speedway - 2009 - Road Course Long",
+      "trackId": 117,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Texas Motor Speedway - 2009 - Road Course Short A",
+      "trackId": 118,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Texas Motor Speedway - 2009 - Road Course Short B",
+      "trackId": 119,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Texas Motor Speedway - 2009 - Legends Oval",
+      "trackId": 120,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Texas Motor Speedway - 2009 - Oval",
+      "trackId": 121,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Texas Motor Speedway - 2009 - Road Course Combined",
+      "trackId": 122,
+      "filepath": ""
+    },
+    {
+      "name": "Chicagoland Speedway",
+      "trackId": 123,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Michigan International Speedway - 2009",
+      "trackId": 124,
+      "filepath": ""
+    },
+    {
+      "name": "Road Atlanta - Club",
+      "trackId": 126,
+      "filepath": ""
+    },
+    {
+      "name": "Road Atlanta - Full Course",
+      "trackId": 127,
+      "filepath": ""
+    },
+    {
+      "name": "Road Atlanta - Short",
+      "trackId": 128,
+      "filepath": ""
+    },
+    {
+      "name": "New Hampshire Motor Speedway - Road Course",
+      "trackId": 129,
+      "filepath": ""
+    },
+    {
+      "name": "New Hampshire Motor Speedway - Road Course with North Oval",
+      "trackId": 130,
+      "filepath": ""
+    },
+    {
+      "name": "New Hampshire Motor Speedway - Oval",
+      "trackId": 131,
+      "filepath": ""
+    },
+    {
+      "name": "New Hampshire Motor Speedway - Road Course with South Oval",
+      "trackId": 132,
+      "filepath": ""
+    },
+    {
+      "name": "Indianapolis Motor Speedway - NASCAR Oval - 2009",
+      "trackId": 133,
+      "filepath": ""
+    },
+    {
+      "name": "Indianapolis Motor Speedway - Road Course - 2009",
+      "trackId": 134,
+      "filepath": ""
+    },
+    {
+      "name": "Indianapolis Motor Speedway - Bike - 2009",
+      "trackId": 135,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Pocono Raceway - 2009 - Oval",
+      "trackId": 136,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Pocono Raceway - 2009 - East",
+      "trackId": 137,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Pocono Raceway - 2009 - South",
+      "trackId": 138,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Pocono Raceway - 2009 - North",
+      "trackId": 139,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Pocono Raceway - 2009 - International",
+      "trackId": 140,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Virginia International Raceway - [Retired] Patriot Reverse",
+      "trackId": 141,
+      "filepath": ""
+    },
+    {
+      "name": "Summit Point Raceway - Jefferson Reverse",
+      "trackId": 142,
+      "filepath": ""
+    },
+    {
+      "name": "Centripetal Circuit",
+      "trackId": 143,
+      "filepath": ""
+    },
+    {
+      "name": "Canadian Tire Motorsports Park",
+      "trackId": 144,
+      "filepath": ""
+    },
+    {
+      "name": "Brands Hatch Circuit - Grand Prix",
+      "trackId": 145,
+      "filepath": ""
+    },
+    {
+      "name": "Brands Hatch Circuit - Indy",
+      "trackId": 146,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Park Zandvoort - Chicane - 2009",
+      "trackId": 147,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Park Zandvoort - Club - 2009",
+      "trackId": 148,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Park Zandvoort - Grand Prix - 2009",
+      "trackId": 149,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Park Zandvoort - Nationaal - 2009",
+      "trackId": 150,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Park Zandvoort - Oostelijk - 2009",
+      "trackId": 151,
+      "filepath": ""
+    },
+    {
+      "name": "Phillip Island Circuit",
+      "trackId": 152,
+      "filepath": ""
+    },
+    {
+      "name": "Mid-Ohio Sports Car Course - Full Course",
+      "trackId": 153,
+      "filepath": ""
+    },
+    {
+      "name": "Mid-Ohio Sports Car Course - Chicane",
+      "trackId": 154,
+      "filepath": ""
+    },
+    {
+      "name": "Mid-Ohio Sports Car Course - Short",
+      "trackId": 155,
+      "filepath": ""
+    },
+    {
+      "name": "Mid-Ohio Sports Car Course - Oval",
+      "trackId": 156,
+      "filepath": ""
+    },
+    {
+      "name": "Mid-Ohio Sports Car Course - Alt Oval",
+      "trackId": 157,
+      "filepath": ""
+    },
+    {
+      "name": "WeatherTech Raceway at Laguna Seca - School",
+      "trackId": 158,
+      "filepath": ""
+    },
+    {
+      "name": "Summit Point Raceway - School",
+      "trackId": 159,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Lime Rock Park - 2008 - School",
+      "trackId": 160,
+      "filepath": ""
+    },
+    {
+      "name": "Thompson Speedway Motorsports Park - Oval",
+      "trackId": 161,
+      "filepath": ""
+    },
+    {
+      "name": "Dover Motor Speedway",
+      "trackId": 162,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "trackId": 163,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps - Classic Pits - 2010",
+      "trackId": 164,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps - Endurance - 2010",
+      "trackId": 165,
+      "filepath": ""
+    },
+    {
+      "name": "Okayama International Circuit - Full Course",
+      "trackId": 166,
+      "filepath": ""
+    },
+    {
+      "name": "Okayama International Circuit - Short",
+      "trackId": 167,
+      "filepath": ""
+    },
+    {
+      "name": "Suzuka International Racing Course - Grand Prix",
+      "trackId": 168,
+      "filepath": ""
+    },
+    {
+      "name": "Iowa Speedway - Oval",
+      "trackId": 169,
+      "filepath": ""
+    },
+    {
+      "name": "Iowa Speedway - Road Course",
+      "trackId": 170,
+      "filepath": ""
+    },
+    {
+      "name": "Iowa Speedway - Legends",
+      "trackId": 171,
+      "filepath": ""
+    },
+    {
+      "name": "Iowa Speedway - Infield Legends",
+      "trackId": 172,
+      "filepath": ""
+    },
+    {
+      "name": "Suzuka International Racing Course - Moto",
+      "trackId": 173,
+      "filepath": ""
+    },
+    {
+      "name": "Suzuka International Racing Course - East",
+      "trackId": 174,
+      "filepath": ""
+    },
+    {
+      "name": "Suzuka International Racing Course - West",
+      "trackId": 175,
+      "filepath": ""
+    },
+    {
+      "name": "Suzuka International Racing Course - West w\\/chicane",
+      "trackId": 176,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Iowa Speedway - [Retired] Infield Road Course",
+      "trackId": 177,
+      "filepath": ""
+    },
+    {
+      "name": "Indianapolis Motor Speedway - Open Wheel Oval - 2009",
+      "trackId": 178,
+      "filepath": ""
+    },
+    {
+      "name": "Long Beach Street Circuit",
+      "trackId": 179,
+      "filepath": ""
+    },
+    {
+      "name": "Oulton Park Circuit - International",
+      "trackId": 180,
+      "filepath": ""
+    },
+    {
+      "name": "Oulton Park Circuit - Fosters",
+      "trackId": 181,
+      "filepath": ""
+    },
+    {
+      "name": "Oulton Park Circuit - Island",
+      "trackId": 182,
+      "filepath": ""
+    },
+    {
+      "name": "Oulton Park Circuit - Intl w\\/out Hislop",
+      "trackId": 183,
+      "filepath": ""
+    },
+    {
+      "name": "Oulton Park Circuit - Intl w\\/out Brittens",
+      "trackId": 184,
+      "filepath": ""
+    },
+    {
+      "name": "Oulton Park Circuit - Intl w\\/no Chicanes",
+      "trackId": 185,
+      "filepath": ""
+    },
+    {
+      "name": "Oulton Park Circuit - Fosters w\\/Hislop",
+      "trackId": 186,
+      "filepath": ""
+    },
+    {
+      "name": "Oulton Park Circuit - Island Historic",
+      "trackId": 187,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Kentucky Speedway - 2011 - Oval",
+      "trackId": 188,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Kentucky Speedway - 2011 - Legends",
+      "trackId": 189,
+      "filepath": ""
+    },
+    {
+      "name": "New Smyrna Speedway",
+      "trackId": 190,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - Oval",
+      "trackId": 191,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - Road Course",
+      "trackId": 192,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - Moto",
+      "trackId": 193,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - Short",
+      "trackId": 194,
+      "filepath": ""
+    },
+    {
+      "name": "Mobility Resort Motegi - Grand Prix",
+      "trackId": 195,
+      "filepath": ""
+    },
+    {
+      "name": "Mobility Resort Motegi - East",
+      "trackId": 196,
+      "filepath": ""
+    },
+    {
+      "name": "Mobility Resort Motegi - West",
+      "trackId": 197,
+      "filepath": ""
+    },
+    {
+      "name": "Mobility Resort Motegi - Oval",
+      "trackId": 198,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Zolder - Grand Prix",
+      "trackId": 199,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Zolder - Alternate",
+      "trackId": 200,
+      "filepath": ""
+    },
+    {
+      "name": "Langley Speedway",
+      "trackId": 201,
+      "filepath": ""
+    },
+    {
+      "name": "Oran Park Raceway - Grand Prix",
+      "trackId": 202,
+      "filepath": ""
+    },
+    {
+      "name": "Rockingham Speedway - Oval",
+      "trackId": 203,
+      "filepath": ""
+    },
+    {
+      "name": "Rockingham Speedway - Road Course",
+      "trackId": 204,
+      "filepath": ""
+    },
+    {
+      "name": "Rockingham Speedway - Infield Road Course",
+      "trackId": 205,
+      "filepath": ""
+    },
+    {
+      "name": "Rockingham Speedway - Short Road Course",
+      "trackId": 206,
+      "filepath": ""
+    },
+    {
+      "name": "Oran Park Raceway - North",
+      "trackId": 207,
+      "filepath": ""
+    },
+    {
+      "name": "Oran Park Raceway - South",
+      "trackId": 208,
+      "filepath": ""
+    },
+    {
+      "name": "Oran Park Raceway - North A",
+      "trackId": 209,
+      "filepath": ""
+    },
+    {
+      "name": "Oran Park Raceway - North B",
+      "trackId": 210,
+      "filepath": ""
+    },
+    {
+      "name": "Oran Park Raceway - Moto",
+      "trackId": 211,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo José Carlos Pace - Grand Prix",
+      "trackId": 212,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo José Carlos Pace - Moto",
+      "trackId": 213,
+      "filepath": ""
+    },
+    {
+      "name": "Kansas Speedway - Oval",
+      "trackId": 214,
+      "filepath": ""
+    },
+    {
+      "name": "Kansas Speedway - Road Course",
+      "trackId": 215,
+      "filepath": ""
+    },
+    {
+      "name": "Kansas Speedway - Infield Road Course",
+      "trackId": 216,
+      "filepath": ""
+    },
+    {
+      "name": "Irwindale Speedway - Figure Eight",
+      "trackId": 217,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Gilles Villeneuve",
+      "trackId": 218,
+      "filepath": ""
+    },
+    {
+      "name": "Mount Panorama Circuit",
+      "trackId": 219,
+      "filepath": ""
+    },
+    {
+      "name": "New Jersey Motorsports Park - Thunderbolt",
+      "trackId": 220,
+      "filepath": ""
+    },
+    {
+      "name": "New Jersey Motorsports Park - Thunderbolt w\\/both chicanes",
+      "trackId": 221,
+      "filepath": ""
+    },
+    {
+      "name": "New Hampshire Motor Speedway - Legends",
+      "trackId": 222,
+      "filepath": ""
+    },
+    {
+      "name": "New Jersey Motorsports Park - Thunderbolt w\\/first chicane",
+      "trackId": 223,
+      "filepath": ""
+    },
+    {
+      "name": "New Jersey Motorsports Park - Thunderbolt w\\/second chicane",
+      "trackId": 224,
+      "filepath": ""
+    },
+    {
+      "name": "Auto Club Speedway - Oval",
+      "trackId": 225,
+      "filepath": ""
+    },
+    {
+      "name": "Auto Club Speedway - Competition",
+      "trackId": 226,
+      "filepath": ""
+    },
+    {
+      "name": "Auto Club Speedway - Moto",
+      "trackId": 227,
+      "filepath": ""
+    },
+    {
+      "name": "Auto Club Speedway - Interior",
+      "trackId": 228,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit of the Americas - Grand Prix",
+      "trackId": 229,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit of the Americas - East",
+      "trackId": 230,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit of the Americas - West",
+      "trackId": 231,
+      "filepath": ""
+    },
+    {
+      "name": "Lucas Oil Indianapolis Raceway Park - Oval",
+      "trackId": 232,
+      "filepath": ""
+    },
+    {
+      "name": "Donington Park Racing Circuit - Grand Prix",
+      "trackId": 233,
+      "filepath": ""
+    },
+    {
+      "name": "Donington Park Racing Circuit - National",
+      "trackId": 234,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Phoenix Raceway - [Retired] Oval",
+      "trackId": 235,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Phoenix Raceway - [Retired] Oval w\\/open dogleg",
+      "trackId": 236,
+      "filepath": ""
+    },
+    {
+      "name": "World Wide Technology Raceway (Gateway) - Oval",
+      "trackId": 237,
+      "filepath": ""
+    },
+    {
+      "name": "World Wide Technology Raceway (Gateway) - Road Course",
+      "trackId": 238,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - Grand Prix",
+      "trackId": 239,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - Combined without chicanes",
+      "trackId": 240,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - Junior",
+      "trackId": 241,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - GP without chicanes",
+      "trackId": 242,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - Oval - Right turning",
+      "trackId": 243,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - GP without first chicane",
+      "trackId": 244,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - Oval - Left turning",
+      "trackId": 245,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - Combined without first chicane",
+      "trackId": 246,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Nazionale Monza - Combined",
+      "trackId": 247,
+      "filepath": ""
+    },
+    {
+      "name": "Five Flags Speedway",
+      "trackId": 248,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Nordschleife - Industriefahrten",
+      "trackId": 249,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Grand-Prix-Strecke - Grand Prix",
+      "trackId": 250,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Combined - Gesamtstrecke 24h",
+      "trackId": 252,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Nordschleife - Touristenfahrten",
+      "trackId": 253,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Grand-Prix-Strecke - BES\\/WEC",
+      "trackId": 255,
+      "filepath": ""
+    },
+    {
+      "name": "Southern National Motorsports Park",
+      "trackId": 256,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Grand-Prix-Strecke - Grand Prix w\\/out Arena",
+      "trackId": 257,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Grand-Prix-Strecke - Sprintstrecke",
+      "trackId": 259,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Grand-Prix-Strecke - Kurzanbindung w\\/out Arena",
+      "trackId": 260,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Grand-Prix-Strecke - Müllenbachschleife",
+      "trackId": 261,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Combined - Gesamtstrecke VLN",
+      "trackId": 262,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Combined - Gesamtstrecke Short w\\/out Arena",
+      "trackId": 263,
+      "filepath": ""
+    },
+    {
+      "name": "Nürburgring Combined - Gesamtstrecke Long",
+      "trackId": 264,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Internazionale Enzo e Dino Ferrari - Grand Prix",
+      "trackId": 266,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Internazionale Enzo e Dino Ferrari - Moto",
+      "trackId": 267,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "trackId": 268,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit des 24 Heures du Mans - Historic",
+      "trackId": 269,
+      "filepath": ""
+    },
+    {
+      "name": "The Bullring",
+      "trackId": 271,
+      "filepath": ""
+    },
+    {
+      "name": "Eldora Speedway",
+      "trackId": 273,
+      "filepath": ""
+    },
+    {
+      "name": "Williams Grove Speedway",
+      "trackId": 274,
+      "filepath": ""
+    },
+    {
+      "name": "USA International Speedway - Dirt",
+      "trackId": 275,
+      "filepath": ""
+    },
+    {
+      "name": "Michigan International Speedway",
+      "trackId": 276,
+      "filepath": ""
+    },
+    {
+      "name": "Pocono Raceway",
+      "trackId": 277,
+      "filepath": ""
+    },
+    {
+      "name": "Volusia Speedway Park",
+      "trackId": 279,
+      "filepath": ""
+    },
+    {
+      "name": "Myrtle Beach Speedway",
+      "trackId": 286,
+      "filepath": ""
+    },
+    {
+      "name": "Bristol Motor Speedway - Dirt - 2021",
+      "trackId": 287,
+      "filepath": ""
+    },
+    {
+      "name": "Lanier National Speedway - Dirt",
+      "trackId": 288,
+      "filepath": ""
+    },
+    {
+      "name": "Brands Hatch Circuit - Rallycross",
+      "trackId": 290,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona Rallycross and Dirt Road - Rallycross Long",
+      "trackId": 293,
+      "filepath": ""
+    },
+    {
+      "name": "Iowa Speedway - Rallycross",
+      "trackId": 295,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona Rallycross and Dirt Road - Rallycross Short",
+      "trackId": 296,
+      "filepath": ""
+    },
+    {
+      "name": "Snetterton Circuit - 300",
+      "trackId": 297,
+      "filepath": ""
+    },
+    {
+      "name": "Snetterton Circuit - 200",
+      "trackId": 298,
+      "filepath": ""
+    },
+    {
+      "name": "Snetterton Circuit - 100",
+      "trackId": 299,
+      "filepath": ""
+    },
+    {
+      "name": "Limaland Motorsports Park",
+      "trackId": 303,
+      "filepath": ""
+    },
+    {
+      "name": "Lucas Oil Indianapolis Raceway Park - Rallycross",
+      "trackId": 304,
+      "filepath": ""
+    },
+    {
+      "name": "Knoxville Raceway",
+      "trackId": 305,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Phoenix Raceway - 2008 - Rallycross",
+      "trackId": 306,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Rallycross",
+      "trackId": 312,
+      "filepath": ""
+    },
+    {
+      "name": "The Dirt Track at Charlotte",
+      "trackId": 314,
+      "filepath": ""
+    },
+    {
+      "name": "Detroit Grand Prix at Belle Isle - Belle Isle",
+      "trackId": 319,
+      "filepath": ""
+    },
+    {
+      "name": "Kokomo Speedway - Tires in",
+      "trackId": 320,
+      "filepath": ""
+    },
+    {
+      "name": "Atlanta Motor Speedway - Rallycross Short",
+      "trackId": 322,
+      "filepath": ""
+    },
+    {
+      "name": "Atlanta Motor Speedway - Rallycross Long",
+      "trackId": 323,
+      "filepath": ""
+    },
+    {
+      "name": "Tsukuba Circuit - 2000 Full",
+      "trackId": 324,
+      "filepath": ""
+    },
+    {
+      "name": "Tsukuba Circuit - 2000 Moto",
+      "trackId": 325,
+      "filepath": ""
+    },
+    {
+      "name": "Tsukuba Circuit - 2000 Short",
+      "trackId": 326,
+      "filepath": ""
+    },
+    {
+      "name": "Tsukuba Circuit - 1000 Full",
+      "trackId": 327,
+      "filepath": ""
+    },
+    {
+      "name": "Tsukuba Circuit - 1000 Outer",
+      "trackId": 328,
+      "filepath": ""
+    },
+    {
+      "name": "Tsukuba Circuit - 1000 Chicane",
+      "trackId": 329,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Roval - 2018",
+      "trackId": 330,
+      "filepath": ""
+    },
+    {
+      "name": "Chili Bowl",
+      "trackId": 331,
+      "filepath": ""
+    },
+    {
+      "name": "Wild West Motorsports Park",
+      "trackId": 332,
+      "filepath": ""
+    },
+    {
+      "name": "Tsukuba Circuit - 1000 Full Reverse",
+      "trackId": 333,
+      "filepath": ""
+    },
+    {
+      "name": "Firebird Motorsports Park",
+      "trackId": 334,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Legends Oval - 2018",
+      "trackId": 335,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Legends RC Long - 2018",
+      "trackId": 336,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Legends RC Medium - 2018",
+      "trackId": 337,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Legends RC Short - 2018",
+      "trackId": 338,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Oval - 2018",
+      "trackId": 339,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Roval Long - 2018",
+      "trackId": 340,
+      "filepath": ""
+    },
+    {
+      "name": "Silverstone Circuit - Grand Prix",
+      "trackId": 341,
+      "filepath": ""
+    },
+    {
+      "name": "Silverstone Circuit - International",
+      "trackId": 342,
+      "filepath": ""
+    },
+    {
+      "name": "Silverstone Circuit - National",
+      "trackId": 343,
+      "filepath": ""
+    },
+    {
+      "name": "Fairbury Speedway",
+      "trackId": 344,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Barcelona Catalunya - Grand Prix",
+      "trackId": 345,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Barcelona Catalunya - National",
+      "trackId": 346,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Barcelona Catalunya - Club",
+      "trackId": 347,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Barcelona Catalunya - Moto",
+      "trackId": 348,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Barcelona Catalunya - Historic",
+      "trackId": 349,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Roval",
+      "trackId": 350,
+      "filepath": ""
+    },
+    {
+      "name": "Lernerville Speedway",
+      "trackId": 351,
+      "filepath": ""
+    },
+    {
+      "name": "Lime Rock Park - Classic",
+      "trackId": 352,
+      "filepath": ""
+    },
+    {
+      "name": "Lime Rock Park - Grand Prix",
+      "trackId": 353,
+      "filepath": ""
+    },
+    {
+      "name": "Lime Rock Park - Chicanes",
+      "trackId": 354,
+      "filepath": ""
+    },
+    {
+      "name": "Lime Rock Park - West Bend Chicane",
+      "trackId": 355,
+      "filepath": ""
+    },
+    {
+      "name": "Texas Motor Speedway - Oval",
+      "trackId": 357,
+      "filepath": ""
+    },
+    {
+      "name": "Lånkebanen (Hell RX) - Hell Rallycross",
+      "trackId": 358,
+      "filepath": ""
+    },
+    {
+      "name": "Lånkebanen (Hell RX) - Club",
+      "trackId": 359,
+      "filepath": ""
+    },
+    {
+      "name": "Lånkebanen (Hell RX) - Rallycross Short",
+      "trackId": 360,
+      "filepath": ""
+    },
+    {
+      "name": "Lånkebanen (Hell RX) - Road Short",
+      "trackId": 361,
+      "filepath": ""
+    },
+    {
+      "name": "Homestead Miami Speedway - Open Wheel Oval",
+      "trackId": 362,
+      "filepath": ""
+    },
+    {
+      "name": "Lånkebanen (Hell RX) - Road Long",
+      "trackId": 363,
+      "filepath": ""
+    },
+    {
+      "name": "Texas Motor Speedway - Legends Oval",
+      "trackId": 364,
+      "filepath": ""
+    },
+    {
+      "name": "Bristol Motor Speedway - Single Pit Roads",
+      "trackId": 365,
+      "filepath": ""
+    },
+    {
+      "name": "North Wilkesboro Speedway - 1987",
+      "trackId": 366,
+      "filepath": ""
+    },
+    {
+      "name": "Kentucky Speedway - Oval",
+      "trackId": 371,
+      "filepath": ""
+    },
+    {
+      "name": "Weedsport Speedway",
+      "trackId": 373,
+      "filepath": ""
+    },
+    {
+      "name": "Nashville Fairgrounds Speedway - Oval",
+      "trackId": 374,
+      "filepath": ""
+    },
+    {
+      "name": "Nashville Fairgrounds Speedway - Mini",
+      "trackId": 380,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona International Speedway - NASCAR Road",
+      "trackId": 381,
+      "filepath": ""
+    },
+    {
+      "name": "Crandon International Raceway - Full",
+      "trackId": 382,
+      "filepath": ""
+    },
+    {
+      "name": "Crandon International Raceway - Short",
+      "trackId": 383,
+      "filepath": ""
+    },
+    {
+      "name": "iRacing Superspeedway",
+      "trackId": 384,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Rallycross",
+      "trackId": 385,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Barcelona Catalunya - Rallycross",
+      "trackId": 386,
+      "filepath": ""
+    },
+    {
+      "name": "Cedar Lake Speedway",
+      "trackId": 387,
+      "filepath": ""
+    },
+    {
+      "name": "Irwindale Speedway - Figure Eight Jump",
+      "trackId": 388,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - Grand Prix",
+      "trackId": 390,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - National A",
+      "trackId": 391,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - National B",
+      "trackId": 392,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - Short A",
+      "trackId": 393,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - Short B",
+      "trackId": 394,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - Outer",
+      "trackId": 395,
+      "filepath": ""
+    },
+    {
+      "name": "Bark River International Raceway",
+      "trackId": 396,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Open Wheel 2012-2018",
+      "trackId": 397,
+      "filepath": ""
+    },
+    {
+      "name": "Mount Washington Hillclimb - Hillclimb",
+      "trackId": 398,
+      "filepath": ""
+    },
+    {
+      "name": "Mount Washington Hillclimb - Descent",
+      "trackId": 399,
+      "filepath": ""
+    },
+    {
+      "name": "Nashville Superspeedway",
+      "trackId": 400,
+      "filepath": ""
+    },
+    {
+      "name": "Red Bull Ring - Grand Prix",
+      "trackId": 403,
+      "filepath": ""
+    },
+    {
+      "name": "Red Bull Ring - National",
+      "trackId": 404,
+      "filepath": ""
+    },
+    {
+      "name": "Chicago Street Course - Prototype",
+      "trackId": 405,
+      "filepath": ""
+    },
+    {
+      "name": "Red Bull Ring - North",
+      "trackId": 407,
+      "filepath": ""
+    },
+    {
+      "name": "Hungaroring",
+      "trackId": 413,
+      "filepath": ""
+    },
+    {
+      "name": "Hickory Motor Speedway",
+      "trackId": 414,
+      "filepath": ""
+    },
+    {
+      "name": "Phoenix Raceway - Oval",
+      "trackId": 418,
+      "filepath": ""
+    },
+    {
+      "name": "Phoenix Raceway - Oval w\\/open dogleg",
+      "trackId": 419,
+      "filepath": ""
+    },
+    {
+      "name": "Knockhill Racing Circuit - International",
+      "trackId": 423,
+      "filepath": ""
+    },
+    {
+      "name": "Knockhill Racing Circuit - International Reverse",
+      "trackId": 424,
+      "filepath": ""
+    },
+    {
+      "name": "Knockhill Racing Circuit - National",
+      "trackId": 425,
+      "filepath": ""
+    },
+    {
+      "name": "Knockhill Racing Circuit - National Reverse",
+      "trackId": 426,
+      "filepath": ""
+    },
+    {
+      "name": "Knockhill Racing Circuit - Rallycross",
+      "trackId": 427,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - Porsche Experience Center - East",
+      "trackId": 428,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - Porsche Experience Center - Outer",
+      "trackId": 429,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - Porsche Experience Center - West",
+      "trackId": 430,
+      "filepath": ""
+    },
+    {
+      "name": "Hockenheimring Baden-Württemberg - Porsche Experience Center - Handling",
+      "trackId": 431,
+      "filepath": ""
+    },
+    {
+      "name": "Watkins Glen International - Classic",
+      "trackId": 432,
+      "filepath": ""
+    },
+    {
+      "name": "Watkins Glen International - Cup",
+      "trackId": 433,
+      "filepath": ""
+    },
+    {
+      "name": "Watkins Glen International - Boot",
+      "trackId": 434,
+      "filepath": ""
+    },
+    {
+      "name": "Watkins Glen International - Classic Boot",
+      "trackId": 435,
+      "filepath": ""
+    },
+    {
+      "name": "Knockhill Racing Circuit - Tri-Oval",
+      "trackId": 436,
+      "filepath": ""
+    },
+    {
+      "name": "LA Coliseum Raceway",
+      "trackId": 437,
+      "filepath": ""
+    },
+    {
+      "name": "Federated Auto Parts Raceway at I-55",
+      "trackId": 438,
+      "filepath": ""
+    },
+    {
+      "name": "Winton Motor Raceway - National Circuit",
+      "trackId": 439,
+      "filepath": ""
+    },
+    {
+      "name": "Winton Motor Raceway - Club Circuit",
+      "trackId": 440,
+      "filepath": ""
+    },
+    {
+      "name": "Bristol Motor Speedway - Dirt",
+      "trackId": 442,
+      "filepath": ""
+    },
+    {
+      "name": "Sandown International Motor Raceway",
+      "trackId": 443,
+      "filepath": ""
+    },
+    {
+      "name": "Fuji International Speedway - Grand Prix",
+      "trackId": 444,
+      "filepath": ""
+    },
+    {
+      "name": "Fuji International Speedway - No Chicane",
+      "trackId": 445,
+      "filepath": ""
+    },
+    {
+      "name": "Port Royal Speedway",
+      "trackId": 446,
+      "filepath": ""
+    },
+    {
+      "name": "EchoPark Speedway (Atlanta) - Oval",
+      "trackId": 447,
+      "filepath": ""
+    },
+    {
+      "name": "Indianapolis Motor Speedway - Road Course",
+      "trackId": 448,
+      "filepath": ""
+    },
+    {
+      "name": "Motorsport Arena Oschersleben - Grand Prix",
+      "trackId": 449,
+      "filepath": ""
+    },
+    {
+      "name": "[Retired] Motorsport Arena Oschersleben - [Retired] Moto",
+      "trackId": 450,
+      "filepath": ""
+    },
+    {
+      "name": "Rudskogen Motorsenter",
+      "trackId": 451,
+      "filepath": ""
+    },
+    {
+      "name": "Lucas Oil Speedway",
+      "trackId": 452,
+      "filepath": ""
+    },
+    {
+      "name": "Indianapolis Motor Speedway - Open Wheel Oval",
+      "trackId": 453,
+      "filepath": ""
+    },
+    {
+      "name": "Motorsport Arena Oschersleben - Alternate",
+      "trackId": 454,
+      "filepath": ""
+    },
+    {
+      "name": "Motorsport Arena Oschersleben - B Course",
+      "trackId": 455,
+      "filepath": ""
+    },
+    {
+      "name": "Motorsport Arena Oschersleben - C Course",
+      "trackId": 456,
+      "filepath": ""
+    },
+    {
+      "name": "Lincoln Speedway",
+      "trackId": 462,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Nevers Magny-Cours - Grand Prix",
+      "trackId": 463,
+      "filepath": ""
+    },
+    {
+      "name": "Virginia International Raceway - Full Course",
+      "trackId": 465,
+      "filepath": ""
+    },
+    {
+      "name": "Virginia International Raceway - Grand Course",
+      "trackId": 466,
+      "filepath": ""
+    },
+    {
+      "name": "Virginia International Raceway - North Course",
+      "trackId": 467,
+      "filepath": ""
+    },
+    {
+      "name": "Virginia International Raceway - South Course",
+      "trackId": 468,
+      "filepath": ""
+    },
+    {
+      "name": "Virginia International Raceway - Patriot Course",
+      "trackId": 469,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona Rallycross and Dirt Road - Dirt Road Long",
+      "trackId": 470,
+      "filepath": ""
+    },
+    {
+      "name": "Daytona Rallycross and Dirt Road - Dirt Road Short",
+      "trackId": 471,
+      "filepath": ""
+    },
+    {
+      "name": "[Legacy] Phoenix Raceway - 2008 - Dirt Road",
+      "trackId": 472,
+      "filepath": ""
+    },
+    {
+      "name": "Circuito de Jerez - Ángel Nieto - Grand Prix",
+      "trackId": 473,
+      "filepath": ""
+    },
+    {
+      "name": "Circuito de Jerez - Ángel Nieto - Moto",
+      "trackId": 474,
+      "filepath": ""
+    },
+    {
+      "name": "MotorLand Aragón - Grand Prix",
+      "trackId": 475,
+      "filepath": ""
+    },
+    {
+      "name": "MotorLand Aragón - National",
+      "trackId": 476,
+      "filepath": ""
+    },
+    {
+      "name": "MotorLand Aragón - West",
+      "trackId": 477,
+      "filepath": ""
+    },
+    {
+      "name": "MotorLand Aragón - Motorcycle Grand Prix",
+      "trackId": 478,
+      "filepath": ""
+    },
+    {
+      "name": "MotorLand Aragón - Motorcycle National",
+      "trackId": 479,
+      "filepath": ""
+    },
+    {
+      "name": "MotorLand Aragón - Outer",
+      "trackId": 480,
+      "filepath": ""
+    },
+    {
+      "name": "Willow Springs International Raceway - Big Willow",
+      "trackId": 481,
+      "filepath": ""
+    },
+    {
+      "name": "MotorLand Aragón - Touring Car",
+      "trackId": 482,
+      "filepath": ""
+    },
+    {
+      "name": "Chicago Street Course - 2023 Cup",
+      "trackId": 483,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Zandvoort - Grand Prix",
+      "trackId": 485,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Zandvoort - Grand Prix w\\/chicane",
+      "trackId": 486,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Zandvoort - Nationaal",
+      "trackId": 487,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit Zandvoort - Oostelijk",
+      "trackId": 488,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Lédenon",
+      "trackId": 489,
+      "filepath": ""
+    },
+    {
+      "name": "Kevin Harvick's Kern Raceway - Asphalt Track",
+      "trackId": 493,
+      "filepath": ""
+    },
+    {
+      "name": "Kevin Harvick's Kern Raceway - Dirt Track",
+      "trackId": 494,
+      "filepath": ""
+    },
+    {
+      "name": "Kevin Harvick's Kern Raceway - Legends",
+      "trackId": 496,
+      "filepath": ""
+    },
+    {
+      "name": "Kevin Harvick's Kern Raceway - Dirt Mini Oval",
+      "trackId": 497,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Internazionale del Mugello - Grand Prix",
+      "trackId": 498,
+      "filepath": ""
+    },
+    {
+      "name": "Autodromo Internazionale del Mugello - Short",
+      "trackId": 499,
+      "filepath": ""
+    },
+    {
+      "name": "Slinger Speedway - Oval",
+      "trackId": 500,
+      "filepath": ""
+    },
+    {
+      "name": "Misano World Circuit Marco Simoncelli - Grand Prix",
+      "trackId": 501,
+      "filepath": ""
+    },
+    {
+      "name": "Misano World Circuit Marco Simoncelli - Grand Prix - 2007",
+      "trackId": 502,
+      "filepath": ""
+    },
+    {
+      "name": "Misano World Circuit Marco Simoncelli - Grand Prix - Historic Reverse",
+      "trackId": 503,
+      "filepath": ""
+    },
+    {
+      "name": "Misano World Circuit Marco Simoncelli - Club",
+      "trackId": 504,
+      "filepath": ""
+    },
+    {
+      "name": "Misano World Circuit Marco Simoncelli - Truck",
+      "trackId": 505,
+      "filepath": ""
+    },
+    {
+      "name": "Slinger Speedway - Figure 8",
+      "trackId": 506,
+      "filepath": ""
+    },
+    {
+      "name": "Lime Rock Park - School",
+      "trackId": 508,
+      "filepath": ""
+    },
+    {
+      "name": "Algarve International Circuit - Grand Prix",
+      "trackId": 509,
+      "filepath": ""
+    },
+    {
+      "name": "Algarve International Circuit - Grand Prix - Chicanes",
+      "trackId": 510,
+      "filepath": ""
+    },
+    {
+      "name": "Algarve International Circuit - Moto",
+      "trackId": 511,
+      "filepath": ""
+    },
+    {
+      "name": "Algarve International Circuit - Moto - Chicanes",
+      "trackId": 512,
+      "filepath": ""
+    },
+    {
+      "name": "Millbridge Speedway",
+      "trackId": 513,
+      "filepath": ""
+    },
+    {
+      "name": "Kokomo Speedway - Tires out",
+      "trackId": 514,
+      "filepath": ""
+    },
+    {
+      "name": "Circuito de Navarra - Speed Circuit",
+      "trackId": 515,
+      "filepath": ""
+    },
+    {
+      "name": "Circuito de Navarra - Speed Circuit - Medium",
+      "trackId": 516,
+      "filepath": ""
+    },
+    {
+      "name": "Circuito de Navarra - Speed Circuit - Short",
+      "trackId": 517,
+      "filepath": ""
+    },
+    {
+      "name": "Oswego Speedway - Oval",
+      "trackId": 518,
+      "filepath": ""
+    },
+    {
+      "name": "Oswego Speedway - Mini Oval",
+      "trackId": 519,
+      "filepath": ""
+    },
+    {
+      "name": "Oswego Speedway - Dirt",
+      "trackId": 520,
+      "filepath": ""
+    },
+    {
+      "name": "Sachsenring",
+      "trackId": 521,
+      "filepath": ""
+    },
+    {
+      "name": "Indianapolis Motor Speedway - NASCAR Oval",
+      "trackId": 522,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "trackId": 523,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps - Classic Pits",
+      "trackId": 524,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps - Endurance",
+      "trackId": 525,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps - Bike",
+      "trackId": 526,
+      "filepath": ""
+    },
+    {
+      "name": "Cadwell Park Circuit - Full",
+      "trackId": 527,
+      "filepath": ""
+    },
+    {
+      "name": "Cadwell Park Circuit - Club",
+      "trackId": 528,
+      "filepath": ""
+    },
+    {
+      "name": "Cadwell Park Circuit - Moto",
+      "trackId": 529,
+      "filepath": ""
+    },
+    {
+      "name": "Cadwell Park Circuit - Woodlands",
+      "trackId": 530,
+      "filepath": ""
+    },
+    {
+      "name": "Huset's Speedway",
+      "trackId": 531,
+      "filepath": ""
+    },
+    {
+      "name": "Thruxton Circuit",
+      "trackId": 532,
+      "filepath": ""
+    },
+    {
+      "name": "Miami International Autodrome - Marina Loop",
+      "trackId": 533,
+      "filepath": ""
+    },
+    {
+      "name": "Miami International Autodrome - MIA Loop",
+      "trackId": 534,
+      "filepath": ""
+    },
+    {
+      "name": "Miami International Autodrome - Extended MIA Loop",
+      "trackId": 535,
+      "filepath": ""
+    },
+    {
+      "name": "Portland International Raceway - Full Circuit",
+      "trackId": 536,
+      "filepath": ""
+    },
+    {
+      "name": "Portland International Raceway - No Chicane",
+      "trackId": 537,
+      "filepath": ""
+    },
+    {
+      "name": "Miami International Autodrome - Extended Marina Loop",
+      "trackId": 538,
+      "filepath": ""
+    },
+    {
+      "name": "Miami International Autodrome - Grand Prix",
+      "trackId": 539,
+      "filepath": ""
+    },
+    {
+      "name": "Shell V-Power Motorsport Park at The Bend - GT Circuit",
+      "trackId": 540,
+      "filepath": ""
+    },
+    {
+      "name": "Shell V-Power Motorsport Park at The Bend - International Circuit",
+      "trackId": 541,
+      "filepath": ""
+    },
+    {
+      "name": "Shell V-Power Motorsport Park at The Bend - East Circuit",
+      "trackId": 542,
+      "filepath": ""
+    },
+    {
+      "name": "Shell V-Power Motorsport Park at The Bend - West Circuit",
+      "trackId": 543,
+      "filepath": ""
+    },
+    {
+      "name": "Shell V-Power Motorsport Park at The Bend - West Plus Circuit",
+      "trackId": 544,
+      "filepath": ""
+    },
+    {
+      "name": "Shell V-Power Motorsport Park at The Bend - Spirit Circuit",
+      "trackId": 545,
+      "filepath": ""
+    },
+    {
+      "name": "Shell V-Power Motorsport Park at The Bend - South West Circuit",
+      "trackId": 546,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Legends Road Course 2025",
+      "trackId": 550,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Infield Road Course Long",
+      "trackId": 551,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Infield Road Course",
+      "trackId": 552,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Roval 2019",
+      "trackId": 553,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Roval 2025",
+      "trackId": 554,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Roval No Chicanes",
+      "trackId": 555,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Oval",
+      "trackId": 556,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Legends Oval",
+      "trackId": 557,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Rallyx",
+      "trackId": 558,
+      "filepath": ""
+    },
+    {
+      "name": "Iowa Speedway - Oval",
+      "trackId": 559,
+      "filepath": ""
+    },
+    {
+      "name": "World Wide Technology Raceway (Gateway) - Oval",
+      "trackId": 560,
+      "filepath": ""
+    },
+    {
+      "name": "Richmond Raceway - N\\/A",
+      "trackId": 561,
+      "filepath": ""
+    },
+    {
+      "name": "North Wilkesboro Speedway - Oval",
+      "trackId": 562,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Indycar 2005-2007",
+      "trackId": 563,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Indycar 2008-2011",
+      "trackId": 564,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Indycar 2012-2018",
+      "trackId": 565,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Cup Long",
+      "trackId": 566,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Cup Short",
+      "trackId": 567,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Oval",
+      "trackId": 568,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Short",
+      "trackId": 569,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Sportscar",
+      "trackId": 570,
+      "filepath": ""
+    },
+    {
+      "name": "Sonoma Raceway - Sportscaralt",
+      "trackId": 571,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez - Grand Prix",
+      "trackId": 572,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez - Grand Prix Historic",
+      "trackId": 573,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez - National",
+      "trackId": 574,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez - National Historic",
+      "trackId": 575,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez - EV Circuit",
+      "trackId": 576,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez - Oval",
+      "trackId": 577,
+      "filepath": ""
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez - Oval Stadium",
+      "trackId": 578,
+      "filepath": ""
+    },
+    {
+      "name": "Circuit of the Americas - NASCAR West",
+      "trackId": 579,
+      "filepath": ""
+    },
+    {
+      "name": "Adelaide Street Circuit",
+      "trackId": 580,
+      "filepath": ""
+    },
+    {
+      "name": "Lucas Oil Speedway - Dirt Road",
+      "trackId": 581,
+      "filepath": ""
+    },
+    {
+      "name": "Winton Motor Raceway - Rallycross",
+      "trackId": 582,
+      "filepath": ""
+    },
+    {
+      "name": "Rockingham Speedway - Oval",
+      "trackId": 583,
+      "filepath": ""
+    },
+    {
+      "name": "St. Petersburg Grand Prix - Grand Prix",
+      "trackId": 584,
+      "filepath": ""
+    },
+    {
+      "name": "Barber Motorsports Park",
+      "trackId": 585,
+      "filepath": ""
+    }
+  ]
+}

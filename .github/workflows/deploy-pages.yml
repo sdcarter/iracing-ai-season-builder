@@ -1,0 +1,43 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Stage downloadable assets
+        run: |
+          mkdir -p docs/assets/templates docs/assets/schedule docs/assets/track-data docs/assets/car-data
+          cp "data/templates/production-car-challenge-template.json" "docs/assets/templates/production-car-challenge-template.json"
+          cp "data/schedule/2026s2.pdf" "docs/assets/schedule/2026s2.pdf"
+          cp "data/track-data/track-ids.lookup.json" "docs/assets/track-data/track-ids.lookup.json"
+          cp "data/car-data/car-ids.lookup.json" "docs/assets/car-data/car-ids.lookup.json"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

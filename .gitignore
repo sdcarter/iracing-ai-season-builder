@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Build/output
+dist/
+out/
+
+# Keep only input data in active scope; archive remains local reference
+_archive/
