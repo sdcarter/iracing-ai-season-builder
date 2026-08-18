@@ -2345,6 +2345,21 @@
       "name": "Barber Motorsports Park",
       "trackId": 585,
       "filepath": ""
+    },
+    {
+      "name": "WeatherTech Raceway at Laguna Seca - 2026",
+      "trackId": 586,
+      "filepath": ""
+    },
+    {
+      "name": "Charlotte Motor Speedway - Dirt Road",
+      "trackId": 587,
+      "filepath": ""
+    },
+    {
+      "name": "Qualcomm Circuit (Naval Base Coronado)",
+      "trackId": 589,
+      "filepath": ""
     }
   ]
 }
