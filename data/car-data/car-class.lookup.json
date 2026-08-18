@@ -1,0 +1,424 @@
+{
+  "description": "Verified iRacing carId to carClassId mappings used by the generic AI season builder.",
+  "sources": [
+    "Recovered from the repository's former verified series catalog.",
+    "Extended manually only when a car/class pair is confirmed by an exported iRacing AI season or an equivalent trusted upstream.",
+    "Major multiclass family additions below are inferred from the checked-in car class catalog plus public iRacing series rosters from adrianulima/my-racing-planner."
+  ],
+  "mappings": [
+    {
+      "carId": 5,
+      "carClassId": 5,
+      "label": "Legends Ford '34 Coupe",
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 36,
+      "carClassId": 34,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 67,
+      "carClassId": 74,
+      "label": "Global Mazda MX-5 Cup",
+      "family": "Production Car",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 92,
+      "carClassId": 2525,
+      "label": "Ford GTE",
+      "family": "GTE",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from GTE Sprint Series roster and local GTE class entries"
+    },
+    {
+      "carId": 93,
+      "carClassId": 2525,
+      "label": "Ferrari 488 GTE",
+      "family": "GTE",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from GTE Sprint Series roster and local GTE class entries"
+    },
+    {
+      "carId": 99,
+      "carClassId": 117,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 102,
+      "carClassId": 2525,
+      "label": "Porsche 911 RSR",
+      "family": "GTE",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from GTE Sprint Series roster and local GTE class entries"
+    },
+    {
+      "carId": 109,
+      "carClassId": 2525,
+      "label": "BMW M8 GTE",
+      "family": "GTE",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from GTE Sprint Series roster and local GTE class entries"
+    },
+    {
+      "carId": 114,
+      "carClassId": 1455,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 119,
+      "carClassId": 2268,
+      "label": "Porsche 718 Cayman GT4 Clubsport MR",
+      "family": "GT4",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 123,
+      "carClassId": 71,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 127,
+      "carClassId": 2525,
+      "label": "Chevrolet Corvette C8.R GTE",
+      "family": "GTE",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from GTE Sprint Series roster and local GTE class entries"
+    },
+    {
+      "carId": 128,
+      "carClassId": 2523,
+      "label": "Dallara P217",
+      "family": "LMP2",
+      "confidence": "inferred",
+      "source": "local-class-catalog",
+      "evidence": "Direct match between Dallara P217 car record and Dallara P217 class 2523"
+    },
+    {
+      "carId": 132,
+      "carClassId": 2708,
+      "label": "BMW M4 GT3 - Prototype",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 133,
+      "carClassId": 2708,
+      "label": "Lamborghini Hurac\u00e1n GT3 EVO",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 135,
+      "carClassId": 2268,
+      "label": "McLaren 570S GT4",
+      "family": "GT4",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 139,
+      "carClassId": 2978,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 142,
+      "carClassId": 3002,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 144,
+      "carClassId": 2708,
+      "label": "Ferrari 488 GT3 Evo 2020",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "local-class-catalog",
+      "evidence": "Direct match between Ferrari 488 GT3 Evo 2020 car record and GT3 class family in local class catalog"
+    },
+    {
+      "carId": 150,
+      "carClassId": 2268,
+      "label": "Aston Martin Vantage GT4",
+      "family": "GT4",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 156,
+      "carClassId": 2708,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 157,
+      "carClassId": 2268,
+      "label": "Mercedes-AMG GT4",
+      "family": "GT4",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 159,
+      "carClassId": 4029,
+      "label": "BMW M Hybrid V8",
+      "family": "GTP",
+      "confidence": "inferred",
+      "source": "local-class-catalog",
+      "evidence": "Direct match between BMW M Hybrid V8 car record and GTP class 4029"
+    },
+    {
+      "carId": 160,
+      "carClassId": 4012,
+      "label": "Toyota GR86",
+      "family": "Production Car",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 161,
+      "carClassId": 4013,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 162,
+      "carClassId": 4015,
+      "label": "Renault Clio",
+      "family": "Production Car",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 163,
+      "carClassId": 4016,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 165,
+      "carClassId": 4018,
+      "label": "Ligier JS P320",
+      "family": "LMP3",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 168,
+      "carClassId": 4029,
+      "label": "Cadillac V-Series.R GTP",
+      "family": "GTP",
+      "confidence": "inferred",
+      "source": "local-class-catalog",
+      "evidence": "Direct match between Cadillac V-Series.R GTP car record and GTP class 4029"
+    },
+    {
+      "carId": 169,
+      "carClassId": 2708,
+      "label": "Porsche 911 GT3 R (992)",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 170,
+      "carClassId": 4029,
+      "label": "Acura ARX-06 GTP",
+      "family": "GTP",
+      "confidence": "inferred",
+      "source": "local-class-catalog",
+      "evidence": "Direct match between Acura ARX-06 GTP car record and GTP class 4029"
+    },
+    {
+      "carId": 173,
+      "carClassId": 2708,
+      "label": "Ferrari 296 GT3",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 174,
+      "carClassId": 4029,
+      "label": "Porsche 963 GTP",
+      "family": "GTP",
+      "confidence": "inferred",
+      "source": "local-class-catalog",
+      "evidence": "Direct match between Porsche 963 GTP car record and GTP class 4029"
+    },
+    {
+      "carId": 176,
+      "carClassId": 2708,
+      "label": "Audi R8 LMS EVO II GT3",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 178,
+      "carClassId": 4049,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 184,
+      "carClassId": 2708,
+      "label": "Chevrolet Corvette Z06 GT3.R",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 185,
+      "carClassId": 2708,
+      "label": "Ford Mustang GT3",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 188,
+      "carClassId": 2708,
+      "label": "McLaren 720S GT3 EVO",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 189,
+      "carClassId": 2268,
+      "label": "BMW M4 G82 GT4",
+      "family": "GT4",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 191,
+      "carClassId": 4069,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 194,
+      "carClassId": 2708,
+      "label": "Acura NSX GT3 EVO 22",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    },
+    {
+      "carId": 195,
+      "carClassId": 4073,
+      "label": "BMW M2 CS Racing",
+      "family": "Production Car",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 196,
+      "carClassId": 4029,
+      "label": "Ferrari 499P",
+      "family": "GTP",
+      "confidence": "inferred",
+      "source": "local-class-catalog",
+      "evidence": "Direct match between Ferrari 499P car record and GTP class 4029"
+    },
+    {
+      "carId": 198,
+      "carClassId": 4086,
+      "label": null,
+      "family": null,
+      "confidence": "verified",
+      "source": "exported-ai-season-json",
+      "evidence": "unknown | unknown"
+    },
+    {
+      "carId": 204,
+      "carClassId": 2268,
+      "label": "Ford Mustang GT4",
+      "family": "GT4",
+      "confidence": "verified",
+      "source": "former-series-catalog",
+      "evidence": "Recovered from deleted data/series-data/series-catalog.json"
+    },
+    {
+      "carId": 206,
+      "carClassId": 2708,
+      "label": "Aston Martin Vantage GT3 EVO",
+      "family": "GT3",
+      "confidence": "inferred",
+      "source": "my-racing-planner+local-class-catalog",
+      "evidence": "Family inferred from IMSA/GT Endurance rosters and local GT3 class entries"
+    }
+  ]
+}

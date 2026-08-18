@@ -8,37 +8,60 @@
   </head>
   <body>
     <main class="shell">
-      <h1>iRacing AI: Season Builder</h1>
-      <p class="sub">Pick a season, series, and car, then download your season JSON.</p>
+      <section class="hero">
+        <p class="eyebrow">Browser-only · Latest upstream season · Best-effort AI export</p>
+        <h1>iRacing AI: Season Builder</h1>
+        <p class="sub">Use the latest upstream season, pick a series and car, then download a modernized best-effort AI season JSON.</p>
+        <div class="hero-meta" aria-hidden="true">
+          <span class="pill">Static app</span>
+          <span class="pill">Upstream-driven</span>
+          <span class="pill">No login required</span>
+        </div>
+      </section>
 
-      <form id="selectorForm" class="panel">
-        <label for="seasonSelect">Season</label>
-        <select id="seasonSelect" name="season" required>
-          <option value="2026s2">2026s2</option>
-        </select>
+      <section class="workspace">
+        <form id="selectorForm" class="panel">
+          <div class="field">
+            <label for="seasonSelect">Season</label>
+            <select id="seasonSelect" name="season" required>
+              <option value="">Loading latest season...</option>
+            </select>
+          </div>
 
-        <label for="seriesSelect">Series</label>
-        <select id="seriesSelect" name="series" required>
-          <option value="production-car-challenge">Production Car Challenge</option>
-        </select>
+          <div class="field">
+            <label for="seriesSelect">Series</label>
+            <select id="seriesSelect" name="series" required>
+              <option value="">Loading series...</option>
+            </select>
+          </div>
 
-        <label for="carSelect">Your Car</label>
-        <select id="carSelect" name="car" required></select>
+          <div class="field">
+            <label for="carSelect">Your Car</label>
+            <select id="carSelect" name="car" required></select>
+          </div>
 
-        <label for="fileNameInput">Output File Name</label>
-        <input id="fileNameInput" name="fileName" type="text" readonly />
+          <div class="field">
+            <label for="fileNameInput">Output File Name</label>
+            <input id="fileNameInput" name="fileName" type="text" readonly />
+          </div>
 
-        <button id="downloadBtn" type="submit">Download JSON</button>
-      </form>
+          <button id="downloadBtn" type="submit">Generate &amp; Download JSON</button>
+        </form>
+
+        <aside class="info-panel" aria-label="How it works">
+          <h2>How this works now</h2>
+          <ul>
+            <li>The app always uses the most recent upstream season.</li>
+            <li>Series and cars are resolved from public community data.</li>
+            <li>AI/session settings remain best-effort until more iRacing metadata is recovered.</li>
+          </ul>
+        </aside>
+      </section>
 
       <p id="status" class="status" aria-live="polite"></p>
     </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs" type="module"></script>
     <script type="module">
-      import * as pdfjsLib from "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs";
-      pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs";
-      window.pdfjsLib = pdfjsLib;
       await import("./app.js");
     </script>
   </body>
