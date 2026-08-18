@@ -8,16 +8,12 @@
   </head>
   <body>
     <main class="shell">
-      <section class="hero">
-        <p class="eyebrow">Browser-only · Latest upstream season · Best-effort AI export</p>
-        <h1>iRacing AI: Season Builder</h1>
-        <p class="sub">Use the latest upstream season, pick a series and car, then download a modernized best-effort AI season JSON.</p>
-        <div class="hero-meta" aria-hidden="true">
-          <span class="pill">Static app</span>
-          <span class="pill">Upstream-driven</span>
-          <span class="pill">No login required</span>
+      <header class="topbar">
+        <div class="brand">
+          <h1>iRacing AI Season Builder</h1>
+          <p class="brand-subtitle">Build AI season JSON files from the current season schedule.</p>
         </div>
-      </section>
+      </header>
 
       <section class="workspace">
         <form id="selectorForm" class="panel">
@@ -47,18 +43,18 @@
 
           <button id="downloadBtn" type="submit">Generate &amp; Download JSON</button>
         </form>
-
-        <aside class="info-panel" aria-label="How it works">
-          <h2>How this works now</h2>
-          <ul>
-            <li>The app always uses the most recent upstream season.</li>
-            <li>Series and cars are resolved from public community data.</li>
-            <li>AI/session settings remain best-effort until more iRacing metadata is recovered.</li>
-          </ul>
-        </aside>
       </section>
 
       <p id="status" class="status" aria-live="polite"></p>
+
+      <footer class="footer">
+        <p class="footer-note">Not affiliated with iRacing.com Motorsport Simulations.</p>
+        <div class="footer-links">
+          <a href="https://github.com/sdcarter/iracing-ai-season-builder" target="_blank" rel="noreferrer">GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/sdcarter/iracing-ai-season-builder" target="_blank" rel="noreferrer">Open Source</a>
+        </div>
+      </footer>
     </main>
 
     <script type="module">

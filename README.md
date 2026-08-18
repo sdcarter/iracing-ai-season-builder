@@ -104,7 +104,7 @@ To enable or re-enable Pages:
 
 Published site URL pattern:
 
-- https://supersagee.github.io/AiSeasonCreator/
+- https://sdcarter.github.io/iracing-ai-season-builder/
 
 ## Contribution Notes
 
