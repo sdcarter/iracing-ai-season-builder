@@ -31,7 +31,7 @@ jobs:
           cp "data/car-data/car-class.lookup.json" "docs/assets/car-data/car-class.lookup.json"
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
         with:
           enablement: true
 
